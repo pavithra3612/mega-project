@@ -1,9 +1,3 @@
-# ENG220-Team5-FinalProject
-## Repository for our final project code.
-### link to proposal doc: [https://docs.google.com/document/d/1AqQVCJbjPxVWu0e4mFmCAB-kzk1ai5PGwbK9kWk_tLc/edit?tab=t.0#heading=h.o7565fudrgpv](https://docs.google.com/document/d/1AqQVCJbjPxVWu0e4mFmCAB-kzk1ai5PGwbK9kWk_tLc/edit?tab=t.0#heading=h.8d3lhia6a1q)
-
-### NOTE: merging with main probably breaks the link because its linked to my repo. Michael
-
 # :seedling: Food Production Emissions Dashboard
 
 Streamlit app showing the enviromental impact in food production.
@@ -23,3 +17,5 @@ Streamlit app showing the enviromental impact in food production.
    ```
    $ streamlit run streamlit_app.py
    ```
+
+## hey that is the default readme. do not use it, Michael
