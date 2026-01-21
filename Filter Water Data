@@ -1,0 +1,45 @@
+import pandas as pd
+import numpy as np
+
+# Define the file paths
+FILE_PATH = "/content/ENG 220 Water Consumption Data Unfiltered (1).csv"
+CLEANED_FILE_PATH = "/content/ENG 220 Water consumption filtered data.csv"
+
+try:
+    # Load the data
+    df = pd.read_csv(FILE_PATH)
+
+    print(f"Original DataFrame shape: {df.shape}")
+
+    # Identify columns with all zero values (for numeric types)
+    zero_value_columns = []
+    for col in df.select_dtypes(include=np.number).columns:
+        # Check if all non-NaN values in the column are zero
+        if (df[col].dropna() == 0).all() and not df[col].isnull().all():
+            zero_value_columns.append(col)
+    
+    if zero_value_columns:
+        print(f"Columns to be dropped due to all zero values: {zero_value_columns}")
+        # Drop the identified columns
+        df_filtered = df.drop(columns=zero_value_columns)
+        print(f"Filtered DataFrame shape: {df_filtered.shape}")
+
+        # Save the filtered DataFrame to a new CSV file
+        df_filtered.to_csv(CLEANED_FILE_PATH, index=False)
+        print(f"Cleaned data saved to: {CLEANED_FILE_PATH}")
+        
+        # Display the first 5 rows of the filtered DataFrame
+        print("\nFirst 5 rows of the filtered DataFrame:")
+        display(df_filtered.head())
+    else:
+        print("No columns with all zero values found. No filtering applied.")
+        # If no columns were dropped, save the original DataFrame as is (or handle as preferred)
+        df.to_csv(CLEANED_FILE_PATH, index=False)
+        print(f"Original data saved to: {CLEANED_FILE_PATH} as no zero-value columns were found.")
+        print("\nFirst 5 rows of the original DataFrame:")
+        display(df.head())
+
+except FileNotFoundError:
+    print(f"Error: The file '{FILE_PATH}' was not found. Please ensure the file exists.")
+except Exception as e:
+    print(f"An unexpected error occurred: {e}")
