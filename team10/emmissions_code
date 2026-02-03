@@ -1,0 +1,28 @@
+clc
+
+data = readtable('NewMexico_emissions.csv');
+
+totals = data(strcmp(data.sector_name, ...
+    "Total carbon dioxide emissions from all sectors") & ...
+    strcmp(data.fuel_name, "All Fuels"), :);
+
+yearTotals = groupsummary(totals, "year", "sum", "value");
+
+% Plot total emissions
+figure;
+bar(yearTotals.year, yearTotals.sum_value);
+xlabel('Year');
+ylabel('Total CO₂ Emissions (million metric tons)');
+title('Total CO₂ Emissions in New Mexico Over Time');
+
+
+%Plot Pie Chart of Fuel
+
+fuels = ["Gas", "Coal", "Petroleum", "Natural Gas"];
+fuelData = data(ismember(data.fuel_name, fuels), :);
+
+fuelTotals = groupsummary(fuelData, "fuel_name", "sum", "value");
+
+figure;
+pie(fuelTotals.sum_value, fuelTotals.fuel_name);
+title('Emissions by Fuel Type');

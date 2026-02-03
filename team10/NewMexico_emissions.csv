@@ -1,0 +1,1154 @@
+year,state_name,sector_name,fuel_name,value
+1970,New Mexico,Residential carbon dioxide emissions,Coal,0.00096
+1970,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,15.203568
+1970,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.766892
+1970,New Mexico,Residential carbon dioxide emissions,All Fuels,2.241952
+1970,New Mexico,Commercial carbon dioxide emissions,Coal,0.000768
+1970,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.187038
+1970,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.896897
+1970,New Mexico,Commercial carbon dioxide emissions,All Fuels,2.084703
+1970,New Mexico,Transportation carbon dioxide emissions,Petroleum,7.531021
+1970,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.739109
+1970,New Mexico,Transportation carbon dioxide emissions,All Fuels,9.27013
+1970,New Mexico,Electric Power carbon dioxide emissions,Coal,9.428585
+1970,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.044174
+1970,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.152092
+1970,New Mexico,Electric Power carbon dioxide emissions,All Fuels,12.624851
+1970,New Mexico,Industrial carbon dioxide emissions,Coal,0.021956
+1970,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.067813
+1970,New Mexico,Industrial carbon dioxide emissions,Natural Gas,6.648579
+1970,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.738347
+1970,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,34.959984
+1970,New Mexico,Total carbon dioxide emissions from all sectors,Coal,9.452269
+1970,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,10.304147
+1970,New Mexico,Residential carbon dioxide emissions,Petroleum,0.474101
+1971,New Mexico,Residential carbon dioxide emissions,Coal,0.001056
+1971,New Mexico,Residential carbon dioxide emissions,Petroleum,0.439713
+1971,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.860207
+1971,New Mexico,Residential carbon dioxide emissions,All Fuels,2.300977
+1971,New Mexico,Commercial carbon dioxide emissions,Coal,0.001152
+1971,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.184342
+1971,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.938517
+1971,New Mexico,Commercial carbon dioxide emissions,All Fuels,2.124012
+1971,New Mexico,Transportation carbon dioxide emissions,Petroleum,7.914092
+1971,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.67066
+1971,New Mexico,Transportation carbon dioxide emissions,All Fuels,9.584752
+1971,New Mexico,Electric Power carbon dioxide emissions,Coal,11.453548
+1971,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.170596
+1971,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.824481
+1971,New Mexico,Electric Power carbon dioxide emissions,All Fuels,14.448625
+1971,New Mexico,Industrial carbon dioxide emissions,Coal,0.023754
+1971,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.89117
+1971,New Mexico,Industrial carbon dioxide emissions,Natural Gas,6.857815
+1971,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.772739
+1971,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,37.231104
+1971,New Mexico,Total carbon dioxide emissions from all sectors,Coal,11.47951
+1971,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,10.599913
+1971,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,15.151681
+1972,New Mexico,Residential carbon dioxide emissions,Petroleum,0.490928
+1972,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.999808
+1972,New Mexico,Residential carbon dioxide emissions,All Fuels,2.490736
+1972,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.200933
+1972,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.868849
+1972,New Mexico,Commercial carbon dioxide emissions,All Fuels,2.069782
+1972,New Mexico,Transportation carbon dioxide emissions,Petroleum,8.541299
+1972,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.097153
+1972,New Mexico,Transportation carbon dioxide emissions,All Fuels,10.638452
+1972,New Mexico,Electric Power carbon dioxide emissions,Coal,11.760573
+1972,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.207101
+1972,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.317567
+1972,New Mexico,Electric Power carbon dioxide emissions,All Fuels,15.285242
+1972,New Mexico,Industrial carbon dioxide emissions,Coal,0.015047
+1972,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.245209
+1972,New Mexico,Industrial carbon dioxide emissions,Natural Gas,6.934251
+1972,New Mexico,Industrial carbon dioxide emissions,All Fuels,9.194507
+1972,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,39.67872
+1972,New Mexico,Total carbon dioxide emissions from all sectors,Coal,11.775621
+1972,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,11.68547
+1972,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,16.217629
+1973,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,14.248095
+1973,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.355191
+1973,New Mexico,Residential carbon dioxide emissions,All Fuels,1.784446
+1973,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.217166
+1973,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.460224
+1973,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.67739
+1973,New Mexico,Transportation carbon dioxide emissions,Petroleum,9.072488
+1973,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.685612
+1973,New Mexico,Transportation carbon dioxide emissions,All Fuels,10.7581
+1973,New Mexico,Electric Power carbon dioxide emissions,Coal,12.752891
+1973,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.369615
+1973,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.656047
+1973,New Mexico,Electric Power carbon dioxide emissions,All Fuels,16.778553
+1973,New Mexico,Industrial carbon dioxide emissions,Coal,0.038801
+1973,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.922472
+1973,New Mexico,Industrial carbon dioxide emissions,Natural Gas,6.091021
+1973,New Mexico,Industrial carbon dioxide emissions,All Fuels,9.052293
+1973,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,40.050783
+1973,New Mexico,Total carbon dioxide emissions from all sectors,Coal,12.791692
+1973,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.010996
+1973,New Mexico,Residential carbon dioxide emissions,Petroleum,0.429255
+1974,New Mexico,Residential carbon dioxide emissions,Petroleum,0.381594
+1974,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.441243
+1974,New Mexico,Residential carbon dioxide emissions,All Fuels,1.822837
+1974,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.193704
+1974,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.434986
+1974,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.62869
+1974,New Mexico,Transportation carbon dioxide emissions,Petroleum,8.949028
+1974,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.840324
+1974,New Mexico,Transportation carbon dioxide emissions,All Fuels,10.789353
+1974,New Mexico,Electric Power carbon dioxide emissions,Coal,13.391577
+1974,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.512072
+1974,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.711347
+1974,New Mexico,Electric Power carbon dioxide emissions,All Fuels,17.614996
+1974,New Mexico,Industrial carbon dioxide emissions,Coal,0.01429
+1974,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.884072
+1974,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.800634
+1974,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.698996
+1974,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,40.554872
+1974,New Mexico,Total carbon dioxide emissions from all sectors,Coal,13.405867
+1974,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,12.920471
+1974,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,14.228534
+1975,New Mexico,Residential carbon dioxide emissions,Petroleum,0.305026
+1975,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.586783
+1975,New Mexico,Residential carbon dioxide emissions,All Fuels,1.891809
+1975,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.183021
+1975,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.300209
+1975,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.483231
+1975,New Mexico,Transportation carbon dioxide emissions,Petroleum,9.053525
+1975,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.654754
+1975,New Mexico,Transportation carbon dioxide emissions,All Fuels,10.708279
+1975,New Mexico,Electric Power carbon dioxide emissions,Coal,12.605846
+1975,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.819043
+1975,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.572594
+1975,New Mexico,Electric Power carbon dioxide emissions,All Fuels,16.997482
+1975,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.911999
+1975,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.200144
+1975,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.112143
+1975,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,39.192944
+1975,New Mexico,Total carbon dioxide emissions from all sectors,Coal,12.605846
+1975,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.272615
+1975,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.314484
+1976,New Mexico,Residential carbon dioxide emissions,All Fuels,2.360278
+1976,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.905751
+1976,New Mexico,Commercial carbon dioxide emissions,All Fuels,2.096178
+1976,New Mexico,Transportation carbon dioxide emissions,Petroleum,9.51588
+1976,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.577398
+1976,New Mexico,Transportation carbon dioxide emissions,All Fuels,11.093278
+1976,New Mexico,Electric Power carbon dioxide emissions,Coal,13.062104
+1976,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.477937
+1976,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.800686
+1976,New Mexico,Electric Power carbon dioxide emissions,All Fuels,17.340727
+1976,New Mexico,Industrial carbon dioxide emissions,Coal,0.015142
+1976,New Mexico,Industrial carbon dioxide emissions,Petroleum,3.054867
+1976,New Mexico,Industrial carbon dioxide emissions,Natural Gas,6.011746
+1976,New Mexico,Industrial carbon dioxide emissions,All Fuels,9.081755
+1976,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,41.972216
+1976,New Mexico,Total carbon dioxide emissions from all sectors,Coal,13.077246
+1976,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.537177
+1976,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,15.357793
+1976,New Mexico,Residential carbon dioxide emissions,Petroleum,0.298065
+1976,New Mexico,Residential carbon dioxide emissions,Natural Gas,2.062213
+1976,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.190427
+1977,New Mexico,Residential carbon dioxide emissions,Petroleum,0.333207
+1977,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.447764
+1977,New Mexico,Residential carbon dioxide emissions,All Fuels,1.780971
+1977,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.243406
+1977,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.444954
+1977,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.68836
+1977,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.03625
+1977,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.256733
+1977,New Mexico,Transportation carbon dioxide emissions,All Fuels,11.292983
+1977,New Mexico,Electric Power carbon dioxide emissions,Coal,14.604938
+1977,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.470932
+1977,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.826347
+1977,New Mexico,Electric Power carbon dioxide emissions,All Fuels,18.902217
+1977,New Mexico,Industrial carbon dioxide emissions,Coal,0.034826
+1977,New Mexico,Industrial carbon dioxide emissions,Petroleum,3.3398
+1977,New Mexico,Industrial carbon dioxide emissions,Natural Gas,4.687697
+1977,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.062323
+1977,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,41.726855
+1977,New Mexico,Total carbon dioxide emissions from all sectors,Coal,14.639764
+1977,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,14.423596
+1977,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,12.663496
+1978,New Mexico,Residential carbon dioxide emissions,Petroleum,0.277282
+1978,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.45524
+1978,New Mexico,Residential carbon dioxide emissions,All Fuels,1.732522
+1978,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.222927
+1978,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.445325
+1978,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.668252
+1978,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.696748
+1978,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.291726
+1978,New Mexico,Transportation carbon dioxide emissions,All Fuels,11.988474
+1978,New Mexico,Electric Power carbon dioxide emissions,Coal,13.698698
+1978,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.211229
+1978,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.495927
+1978,New Mexico,Electric Power carbon dioxide emissions,All Fuels,17.405853
+1978,New Mexico,Industrial carbon dioxide emissions,Coal,0.162113
+1978,New Mexico,Industrial carbon dioxide emissions,Petroleum,3.077233
+1978,New Mexico,Industrial carbon dioxide emissions,Natural Gas,4.077475
+1978,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.31682
+1978,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,40.111921
+1978,New Mexico,Total carbon dioxide emissions from all sectors,Coal,13.86081
+1978,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,14.485418
+1978,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.765693
+1979,New Mexico,Residential carbon dioxide emissions,Coal,0.00144
+1979,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.660846
+1979,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.574482
+1979,New Mexico,Residential carbon dioxide emissions,All Fuels,1.884508
+1979,New Mexico,Commercial carbon dioxide emissions,Coal,0.005762
+1979,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.193515
+1979,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.489597
+1979,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.688874
+1979,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.189552
+1979,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.645794
+1979,New Mexico,Transportation carbon dioxide emissions,All Fuels,11.835346
+1979,New Mexico,Electric Power carbon dioxide emissions,Coal,14.348797
+1979,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.383827
+1979,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.311841
+1979,New Mexico,Electric Power carbon dioxide emissions,All Fuels,18.044466
+1979,New Mexico,Industrial carbon dioxide emissions,Coal,0.189747
+1979,New Mexico,Industrial carbon dioxide emissions,Petroleum,3.291643
+1979,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.639132
+1979,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.120522
+1979,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,40.573716
+1979,New Mexico,Total carbon dioxide emissions from all sectors,Coal,14.545746
+1979,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,14.367123
+1979,New Mexico,Residential carbon dioxide emissions,Petroleum,0.308586
+1980,New Mexico,Residential carbon dioxide emissions,Coal,0.017573
+1980,New Mexico,Residential carbon dioxide emissions,Petroleum,0.337358
+1980,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.587631
+1980,New Mexico,Residential carbon dioxide emissions,All Fuels,1.942563
+1980,New Mexico,Commercial carbon dioxide emissions,Coal,0.066069
+1980,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.436697
+1980,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.361289
+1980,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.864054
+1980,New Mexico,Transportation carbon dioxide emissions,Petroleum,9.734671
+1980,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.130715
+1980,New Mexico,Transportation carbon dioxide emissions,All Fuels,11.865386
+1980,New Mexico,Electric Power carbon dioxide emissions,Coal,19.196249
+1980,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.175938
+1980,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.070494
+1980,New Mexico,Electric Power carbon dioxide emissions,All Fuels,22.442681
+1980,New Mexico,Industrial carbon dioxide emissions,Coal,0.016561
+1980,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.846173
+1980,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.933929
+1980,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.796664
+1980,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,44.911348
+1980,New Mexico,Total carbon dioxide emissions from all sectors,Coal,19.296452
+1980,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.530838
+1980,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,12.084057
+1981,New Mexico,Residential carbon dioxide emissions,Coal,0.001729
+1981,New Mexico,Residential carbon dioxide emissions,Petroleum,0.231629
+1981,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.377619
+1981,New Mexico,Residential carbon dioxide emissions,All Fuels,1.610976
+1981,New Mexico,Commercial carbon dioxide emissions,Coal,0.007874
+1981,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.601087
+1981,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.142528
+1981,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.751489
+1981,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.893467
+1981,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.19646
+1981,New Mexico,Transportation carbon dioxide emissions,All Fuels,13.089926
+1981,New Mexico,Electric Power carbon dioxide emissions,Coal,18.462449
+1981,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.0787
+1981,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.976649
+1981,New Mexico,Electric Power carbon dioxide emissions,All Fuels,21.517798
+1981,New Mexico,Industrial carbon dioxide emissions,Coal,0.257688
+1981,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.789772
+1981,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.058106
+1981,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.105566
+1981,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,44.075755
+1981,New Mexico,Total carbon dioxide emissions from all sectors,Coal,18.72974
+1981,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,14.594654
+1981,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,10.751361
+1982,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.408941
+1982,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.210871
+1982,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.639018
+1982,New Mexico,Transportation carbon dioxide emissions,Petroleum,9.887809
+1982,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.944827
+1982,New Mexico,Transportation carbon dioxide emissions,All Fuels,11.832636
+1982,New Mexico,Electric Power carbon dioxide emissions,Coal,21.167187
+1982,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.147559
+1982,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.421158
+1982,New Mexico,Electric Power carbon dioxide emissions,All Fuels,23.735905
+1982,New Mexico,Industrial carbon dioxide emissions,Coal,0.261208
+1982,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.825785
+1982,New Mexico,Industrial carbon dioxide emissions,Natural Gas,4.073673
+1982,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.160667
+1982,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,45.177792
+1982,New Mexico,Total carbon dioxide emissions from all sectors,Coal,21.451538
+1982,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,12.601981
+1982,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.124273
+1982,New Mexico,Residential carbon dioxide emissions,Coal,0.003937
+1982,New Mexico,Residential carbon dioxide emissions,Petroleum,0.331886
+1982,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.473744
+1982,New Mexico,Residential carbon dioxide emissions,All Fuels,1.809567
+1982,New Mexico,Commercial carbon dioxide emissions,Coal,0.019206
+1983,New Mexico,Residential carbon dioxide emissions,Coal,0.003361
+1983,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,9.620302
+1983,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.468442
+1983,New Mexico,Residential carbon dioxide emissions,All Fuels,1.892661
+1983,New Mexico,Commercial carbon dioxide emissions,Coal,0.01767
+1983,New Mexico,Commercial carbon dioxide emissions,Petroleum,1.102729
+1983,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.237646
+1983,New Mexico,Commercial carbon dioxide emissions,All Fuels,2.358044
+1983,New Mexico,Transportation carbon dioxide emissions,Petroleum,9.03933
+1983,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.675432
+1983,New Mexico,Transportation carbon dioxide emissions,All Fuels,10.714762
+1983,New Mexico,Electric Power carbon dioxide emissions,Coal,24.85416
+1983,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.107062
+1983,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.610801
+1983,New Mexico,Electric Power carbon dioxide emissions,All Fuels,26.572023
+1983,New Mexico,Industrial carbon dioxide emissions,Coal,0.201092
+1983,New Mexico,Industrial carbon dioxide emissions,Petroleum,3.30479
+1983,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.627981
+1983,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.133864
+1983,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,48.671355
+1983,New Mexico,Total carbon dioxide emissions from all sectors,Coal,25.076283
+1983,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.97477
+1983,New Mexico,Residential carbon dioxide emissions,Petroleum,0.420858
+1984,New Mexico,Residential carbon dioxide emissions,Coal,0.002881
+1984,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,8.825033
+1984,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.541716
+1984,New Mexico,Residential carbon dioxide emissions,All Fuels,1.706247
+1984,New Mexico,Commercial carbon dioxide emissions,Coal,0.012292
+1984,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.488947
+1984,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.291408
+1984,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.792647
+1984,New Mexico,Transportation carbon dioxide emissions,Petroleum,9.349869
+1984,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.524474
+1984,New Mexico,Transportation carbon dioxide emissions,All Fuels,9.874343
+1984,New Mexico,Electric Power carbon dioxide emissions,Coal,23.881626
+1984,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.057209
+1984,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.627025
+1984,New Mexico,Electric Power carbon dioxide emissions,All Fuels,25.56586
+1984,New Mexico,Industrial carbon dioxide emissions,Coal,0.153515
+1984,New Mexico,Industrial carbon dioxide emissions,Petroleum,3.063394
+1984,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.840411
+1984,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.05732
+1984,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,45.996417
+1984,New Mexico,Total carbon dioxide emissions from all sectors,Coal,24.050314
+1984,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.121069
+1984,New Mexico,Residential carbon dioxide emissions,Petroleum,0.161651
+1985,New Mexico,Residential carbon dioxide emissions,Coal,0.003361
+1985,New Mexico,Residential carbon dioxide emissions,Petroleum,0.503947
+1985,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.266277
+1985,New Mexico,Residential carbon dioxide emissions,All Fuels,1.773584
+1985,New Mexico,Commercial carbon dioxide emissions,Coal,0.011908
+1985,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.320485
+1985,New Mexico,Commercial carbon dioxide emissions,Natural Gas,0.965229
+1985,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.297622
+1985,New Mexico,Transportation carbon dioxide emissions,Petroleum,9.598286
+1985,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.497815
+1985,New Mexico,Transportation carbon dioxide emissions,All Fuels,11.096101
+1985,New Mexico,Electric Power carbon dioxide emissions,Coal,25.340189
+1985,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.038747
+1985,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.511017
+1985,New Mexico,Electric Power carbon dioxide emissions,All Fuels,26.889954
+1985,New Mexico,Industrial carbon dioxide emissions,Coal,0.169796
+1985,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.185579
+1985,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.217365
+1985,New Mexico,Industrial carbon dioxide emissions,All Fuels,5.57274
+1985,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,46.630001
+1985,New Mexico,Total carbon dioxide emissions from all sectors,Coal,25.525254
+1985,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,12.647044
+1985,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,8.457703
+1986,New Mexico,Industrial carbon dioxide emissions,Coal,0.192018
+1986,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.023064
+1986,New Mexico,Industrial carbon dioxide emissions,Natural Gas,2.394358
+1986,New Mexico,Industrial carbon dioxide emissions,All Fuels,4.60944
+1986,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,43.175873
+1986,New Mexico,Total carbon dioxide emissions from all sectors,Coal,22.978506
+1986,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,12.644534
+1986,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,7.552833
+1986,New Mexico,Residential carbon dioxide emissions,Coal,0.002209
+1986,New Mexico,Residential carbon dioxide emissions,Petroleum,0.249768
+1986,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.379633
+1986,New Mexico,Residential carbon dioxide emissions,All Fuels,1.63161
+1986,New Mexico,Commercial carbon dioxide emissions,Coal,0.007394
+1986,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.232761
+1986,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.185686
+1986,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.425841
+1986,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.101522
+1986,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.479258
+1986,New Mexico,Transportation carbon dioxide emissions,All Fuels,11.58078
+1986,New Mexico,Electric Power carbon dioxide emissions,Coal,22.776885
+1986,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.03742
+1986,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.113897
+1986,New Mexico,Electric Power carbon dioxide emissions,All Fuels,23.928202
+1987,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.036825
+1987,New Mexico,Electric Power carbon dioxide emissions,Coal,24.684002
+1987,New Mexico,Electric Power carbon dioxide emissions,All Fuels,25.724708
+1987,New Mexico,Industrial carbon dioxide emissions,Coal,0.098327
+1987,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.802902
+1987,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.374799
+1987,New Mexico,Industrial carbon dioxide emissions,All Fuels,5.276028
+1987,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,46.357267
+1987,New Mexico,Total carbon dioxide emissions from all sectors,Coal,24.792701
+1987,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,12.993542
+1987,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,8.571024
+1987,New Mexico,Residential carbon dioxide emissions,Coal,0.002401
+1987,New Mexico,Residential carbon dioxide emissions,Petroleum,0.246204
+1987,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.577451
+1987,New Mexico,Residential carbon dioxide emissions,All Fuels,1.826056
+1987,New Mexico,Commercial carbon dioxide emissions,Coal,0.00797
+1987,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.298167
+1987,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.142316
+1987,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.448454
+1987,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.609444
+1987,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.472577
+1987,New Mexico,Transportation carbon dioxide emissions,All Fuels,12.082022
+1987,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.003881
+1988,New Mexico,Residential carbon dioxide emissions,Coal,0.001248
+1988,New Mexico,Residential carbon dioxide emissions,Petroleum,0.2156
+1988,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.585351
+1988,New Mexico,Residential carbon dioxide emissions,All Fuels,1.8022
+1988,New Mexico,Commercial carbon dioxide emissions,Coal,0.004513
+1988,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.259407
+1988,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.766732
+1988,New Mexico,Commercial carbon dioxide emissions,All Fuels,2.030653
+1988,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.726808
+1988,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.111893
+1988,New Mexico,Transportation carbon dioxide emissions,All Fuels,12.838701
+1988,New Mexico,Electric Power carbon dioxide emissions,Coal,25.199992
+1988,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.042234
+1988,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.145868
+1988,New Mexico,Electric Power carbon dioxide emissions,All Fuels,26.388094
+1988,New Mexico,Industrial carbon dioxide emissions,Coal,0.105804
+1988,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.832929
+1988,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.070575
+1988,New Mexico,Industrial carbon dioxide emissions,All Fuels,5.009308
+1988,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,48.068955
+1988,New Mexico,Total carbon dioxide emissions from all sectors,Coal,25.311558
+1988,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.076978
+1988,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,9.680419
+1989,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.870233
+1989,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.555611
+1989,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.917956
+1989,New Mexico,Transportation carbon dioxide emissions,All Fuels,13.473567
+1989,New Mexico,Electric Power carbon dioxide emissions,Coal,26.512556
+1989,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.037676
+1989,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.497709
+1989,New Mexico,Electric Power carbon dioxide emissions,All Fuels,28.047941
+1989,New Mexico,Industrial carbon dioxide emissions,Coal,0.085552
+1989,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.863373
+1989,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.244736
+1989,New Mexico,Industrial carbon dioxide emissions,All Fuels,5.19366
+1989,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,50.358752
+1989,New Mexico,Total carbon dioxide emissions from all sectors,Coal,26.615777
+1989,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.016216
+1989,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,10.726759
+1989,New Mexico,Residential carbon dioxide emissions,Coal,0.003745
+1989,New Mexico,Residential carbon dioxide emissions,Petroleum,0.28844
+1989,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.481167
+1989,New Mexico,Residential carbon dioxide emissions,All Fuels,1.773352
+1989,New Mexico,Commercial carbon dioxide emissions,Coal,0.013924
+1989,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.271116
+1989,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.585192
+1990,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.831799
+1990,New Mexico,Industrial carbon dioxide emissions,Natural Gas,4.561182
+1990,New Mexico,Total carbon dioxide emissions from all sectors,Coal,26.2188
+1990,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.497225
+1990,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.122958
+1990,New Mexico,Residential carbon dioxide emissions,Coal,0.001825
+1990,New Mexico,Residential carbon dioxide emissions,Petroleum,0.397321
+1990,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.576444
+1990,New Mexico,Residential carbon dioxide emissions,All Fuels,1.975589
+1990,New Mexico,Commercial carbon dioxide emissions,Coal,0.007202
+1990,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.329624
+1990,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.327091
+1990,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.663917
+1990,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.551589
+1990,New Mexico,Transportation carbon dioxide emissions,Natural Gas,4.26196
+1990,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.813548
+1990,New Mexico,Electric Power carbon dioxide emissions,Coal,26.126777
+1990,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.031071
+1990,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.396282
+1990,New Mexico,Electric Power carbon dioxide emissions,All Fuels,27.554129
+1990,New Mexico,Industrial carbon dioxide emissions,Coal,0.082996
+1990,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.187621
+1990,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,52.838983
+1991,New Mexico,Residential carbon dioxide emissions,Coal,0.002601
+1991,New Mexico,Residential carbon dioxide emissions,Petroleum,0.315575
+1991,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.643808
+1991,New Mexico,Residential carbon dioxide emissions,All Fuels,1.961984
+1991,New Mexico,Commercial carbon dioxide emissions,Coal,0.011751
+1991,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.273695
+1991,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.380163
+1991,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.66561
+1991,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.600951
+1991,New Mexico,Transportation carbon dioxide emissions,Natural Gas,3.964319
+1991,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.56527
+1991,New Mexico,Electric Power carbon dioxide emissions,Coal,22.212652
+1991,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.029435
+1991,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.517072
+1991,New Mexico,Electric Power carbon dioxide emissions,All Fuels,23.759158
+1991,New Mexico,Industrial carbon dioxide emissions,Coal,0.083758
+1991,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.785272
+1991,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.384672
+1991,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.253703
+1991,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,48.205725
+1991,New Mexico,Total carbon dioxide emissions from all sectors,Coal,22.310762
+1991,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,14.004928
+1991,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.890034
+1992,New Mexico,Transportation carbon dioxide emissions,Petroleum,11.250389
+1992,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.032544
+1992,New Mexico,Electric Power carbon dioxide emissions,Coal,25.368786
+1992,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.031445
+1992,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.214484
+1992,New Mexico,Electric Power carbon dioxide emissions,All Fuels,26.614715
+1992,New Mexico,Industrial carbon dioxide emissions,Coal,0.092829
+1992,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.719624
+1992,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.738224
+1992,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.550677
+1992,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,50.929986
+1992,New Mexico,Total carbon dioxide emissions from all sectors,Coal,25.478832
+1992,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,14.438636
+1992,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.012518
+1992,New Mexico,Residential carbon dioxide emissions,Coal,0.003095
+1992,New Mexico,Residential carbon dioxide emissions,Petroleum,0.258536
+1992,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.7369
+1992,New Mexico,Residential carbon dioxide emissions,All Fuels,1.998531
+1992,New Mexico,Commercial carbon dioxide emissions,Coal,0.014122
+1992,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.178642
+1992,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.540755
+1992,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.733519
+1992,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.782155
+1993,New Mexico,Residential carbon dioxide emissions,Coal,0.003357
+1993,New Mexico,Residential carbon dioxide emissions,Petroleum,0.189722
+1993,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.759787
+1993,New Mexico,Residential carbon dioxide emissions,All Fuels,1.952866
+1993,New Mexico,Commercial carbon dioxide emissions,Coal,0.015251
+1993,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.175015
+1993,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.541822
+1993,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.732088
+1993,New Mexico,Transportation carbon dioxide emissions,Petroleum,11.30303
+1993,New Mexico,Transportation carbon dioxide emissions,Natural Gas,3.445558
+1993,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.748588
+1993,New Mexico,Electric Power carbon dioxide emissions,Coal,25.505145
+1993,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.030998
+1993,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.497179
+1993,New Mexico,Electric Power carbon dioxide emissions,All Fuels,27.033322
+1993,New Mexico,Industrial carbon dioxide emissions,Coal,0.122978
+1993,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.701368
+1993,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.523008
+1993,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.347354
+1993,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,51.814218
+1993,New Mexico,Total carbon dioxide emissions from all sectors,Coal,25.646732
+1993,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,14.400133
+1993,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.767353
+1994,New Mexico,Residential carbon dioxide emissions,Coal,0.002487
+1994,New Mexico,Residential carbon dioxide emissions,Petroleum,0.181931
+1994,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.636144
+1994,New Mexico,Residential carbon dioxide emissions,All Fuels,1.820563
+1994,New Mexico,Commercial carbon dioxide emissions,Coal,0.014349
+1994,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.129804
+1994,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.323167
+1994,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.46732
+1994,New Mexico,Transportation carbon dioxide emissions,Petroleum,10.931287
+1994,New Mexico,Transportation carbon dioxide emissions,Natural Gas,3.138201
+1994,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.069487
+1994,New Mexico,Electric Power carbon dioxide emissions,Coal,26.258693
+1994,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.02012
+1994,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.750826
+1994,New Mexico,Electric Power carbon dioxide emissions,All Fuels,28.029639
+1994,New Mexico,Industrial carbon dioxide emissions,Coal,0.14083
+1994,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.49605
+1994,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.72307
+1994,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.35995
+1994,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,51.74696
+1994,New Mexico,Total carbon dioxide emissions from all sectors,Coal,26.41636
+1994,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.759191
+1994,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.571409
+1995,New Mexico,Residential carbon dioxide emissions,Coal,0.001916
+1995,New Mexico,Residential carbon dioxide emissions,Petroleum,0.201367
+1995,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.557319
+1995,New Mexico,Residential carbon dioxide emissions,All Fuels,1.760603
+1995,New Mexico,Commercial carbon dioxide emissions,Coal,0.012839
+1995,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.159135
+1995,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.295538
+1995,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.467511
+1995,New Mexico,Transportation carbon dioxide emissions,Petroleum,9.61823
+1995,New Mexico,Transportation carbon dioxide emissions,Natural Gas,3.078083
+1995,New Mexico,Transportation carbon dioxide emissions,All Fuels,12.696312
+1995,New Mexico,Electric Power carbon dioxide emissions,Coal,25.982986
+1995,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.019085
+1995,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.731027
+1995,New Mexico,Electric Power carbon dioxide emissions,All Fuels,27.733098
+1995,New Mexico,Industrial carbon dioxide emissions,Coal,0.158204
+1995,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.753008
+1995,New Mexico,Industrial carbon dioxide emissions,Natural Gas,3.80746
+1995,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.718673
+1995,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,50.376197
+1995,New Mexico,Total carbon dioxide emissions from all sectors,Coal,26.155945
+1995,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,12.750825
+1995,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.469426
+1996,New Mexico,Residential carbon dioxide emissions,Coal,0.001813
+1996,New Mexico,Residential carbon dioxide emissions,Petroleum,0.199899
+1996,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.849343
+1996,New Mexico,Residential carbon dioxide emissions,All Fuels,2.051055
+1996,New Mexico,Commercial carbon dioxide emissions,Coal,0.01298
+1996,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.128973
+1996,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.452851
+1996,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.594804
+1996,New Mexico,Transportation carbon dioxide emissions,Petroleum,11.262214
+1996,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.485481
+1996,New Mexico,Transportation carbon dioxide emissions,All Fuels,12.747695
+1996,New Mexico,Electric Power carbon dioxide emissions,Coal,26.360865
+1996,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.018639
+1996,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.861652
+1996,New Mexico,Electric Power carbon dioxide emissions,All Fuels,28.241156
+1996,New Mexico,Industrial carbon dioxide emissions,Coal,0.153745
+1996,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.215155
+1996,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.489762
+1996,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.858663
+1996,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,52.493373
+1996,New Mexico,Total carbon dioxide emissions from all sectors,Coal,26.529403
+1996,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,13.824881
+1996,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,12.139089
+1997,New Mexico,Residential carbon dioxide emissions,Coal,0.001614
+1997,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.678875
+1997,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.986654
+1997,New Mexico,Residential carbon dioxide emissions,All Fuels,2.241168
+1997,New Mexico,Commercial carbon dioxide emissions,Coal,0.012816
+1997,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.139536
+1997,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.486489
+1997,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.63884
+1997,New Mexico,Transportation carbon dioxide emissions,Petroleum,12.067407
+1997,New Mexico,Transportation carbon dioxide emissions,Natural Gas,3.383954
+1997,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.451361
+1997,New Mexico,Electric Power carbon dioxide emissions,Coal,27.236506
+1997,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.0179
+1997,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.137282
+1997,New Mexico,Electric Power carbon dioxide emissions,All Fuels,29.391687
+1997,New Mexico,Industrial carbon dioxide emissions,Coal,0.157109
+1997,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.276745
+1997,New Mexico,Industrial carbon dioxide emissions,Natural Gas,4.684497
+1997,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.118352
+1997,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,55.841407
+1997,New Mexico,Total carbon dioxide emissions from all sectors,Coal,27.408044
+1997,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,14.754487
+1997,New Mexico,Residential carbon dioxide emissions,Petroleum,0.2529
+1998,New Mexico,Residential carbon dioxide emissions,Coal,0.002389
+1998,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,12.597096
+1998,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.860722
+1998,New Mexico,Residential carbon dioxide emissions,All Fuels,2.23252
+1998,New Mexico,Commercial carbon dioxide emissions,Coal,0.01892
+1998,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.153781
+1998,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.410999
+1998,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.5837
+1998,New Mexico,Transportation carbon dioxide emissions,Petroleum,12.720387
+1998,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.723449
+1998,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.443837
+1998,New Mexico,Electric Power carbon dioxide emissions,Coal,27.436274
+1998,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.019377
+1998,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.402211
+1998,New Mexico,Electric Power carbon dioxide emissions,All Fuels,29.857862
+1998,New Mexico,Industrial carbon dioxide emissions,Coal,0.148785
+1998,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.922055
+1998,New Mexico,Industrial carbon dioxide emissions,Natural Gas,4.199715
+1998,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.270555
+1998,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,55.388473
+1998,New Mexico,Total carbon dioxide emissions from all sectors,Coal,27.606367
+1998,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,15.18501
+1998,New Mexico,Residential carbon dioxide emissions,Petroleum,0.369409
+1999,New Mexico,Residential carbon dioxide emissions,Coal,0.001714
+1999,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,12.07783
+1999,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.838044
+1999,New Mexico,Residential carbon dioxide emissions,All Fuels,2.327958
+1999,New Mexico,Commercial carbon dioxide emissions,Coal,0.012665
+1999,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.25621
+1999,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.401372
+1999,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.670247
+1999,New Mexico,Transportation carbon dioxide emissions,Petroleum,12.985927
+1999,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.517071
+1999,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.502999
+1999,New Mexico,Electric Power carbon dioxide emissions,Coal,28.208188
+1999,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.031136
+1999,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.271695
+1999,New Mexico,Electric Power carbon dioxide emissions,All Fuels,30.511019
+1999,New Mexico,Industrial carbon dioxide emissions,Coal,0.152117
+1999,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.085361
+1999,New Mexico,Industrial carbon dioxide emissions,Natural Gas,4.049647
+1999,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.287125
+1999,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,56.299347
+1999,New Mexico,Total carbon dioxide emissions from all sectors,Coal,28.374683
+1999,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,15.846834
+1999,New Mexico,Residential carbon dioxide emissions,Petroleum,0.4882
+2000,New Mexico,Residential carbon dioxide emissions,Coal,0.001621
+2000,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.479984
+2000,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.844356
+2000,New Mexico,Residential carbon dioxide emissions,All Fuels,2.320057
+2000,New Mexico,Commercial carbon dioxide emissions,Coal,0.01287
+2000,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.236612
+2000,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.386742
+2000,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.636224
+2000,New Mexico,Transportation carbon dioxide emissions,Petroleum,12.972083
+2000,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.360385
+2000,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.332468
+2000,New Mexico,Electric Power carbon dioxide emissions,Coal,28.907219
+2000,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.029307
+2000,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.467613
+2000,New Mexico,Electric Power carbon dioxide emissions,All Fuels,31.404138
+2000,New Mexico,Industrial carbon dioxide emissions,Coal,0.179888
+2000,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.967872
+2000,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.420889
+2000,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.568649
+2000,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,58.261536
+2000,New Mexico,Total carbon dioxide emissions from all sectors,Coal,29.101598
+2000,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,15.679954
+2000,New Mexico,Residential carbon dioxide emissions,Petroleum,0.47408
+2001,New Mexico,Residential carbon dioxide emissions,Coal,0.000953
+2001,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.483254
+2001,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.793402
+2001,New Mexico,Residential carbon dioxide emissions,All Fuels,2.590487
+2001,New Mexico,Commercial carbon dioxide emissions,Coal,0.008005
+2001,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.359996
+2001,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.400311
+2001,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.768312
+2001,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.294805
+2001,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.356951
+2001,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.651756
+2001,New Mexico,Electric Power carbon dioxide emissions,Coal,28.133768
+2001,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.030932
+2001,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.550739
+2001,New Mexico,Electric Power carbon dioxide emissions,All Fuels,30.715439
+2001,New Mexico,Industrial carbon dioxide emissions,Coal,0.167221
+2001,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.116013
+2001,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.381851
+2001,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.665085
+2001,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,58.39108
+2001,New Mexico,Total carbon dioxide emissions from all sectors,Coal,28.309947
+2001,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.59788
+2001,New Mexico,Residential carbon dioxide emissions,Petroleum,0.796133
+2002,New Mexico,Residential carbon dioxide emissions,Coal,0.001047
+2002,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.956503
+2002,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.728056
+2002,New Mexico,Residential carbon dioxide emissions,All Fuels,2.36417
+2002,New Mexico,Commercial carbon dioxide emissions,Coal,0.0079
+2002,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.419806
+2002,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.314161
+2002,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.741867
+2002,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.270077
+2002,New Mexico,Transportation carbon dioxide emissions,Natural Gas,2.154897
+2002,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.424973
+2002,New Mexico,Electric Power carbon dioxide emissions,Coal,26.947511
+2002,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.023516
+2002,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.984479
+2002,New Mexico,Electric Power carbon dioxide emissions,All Fuels,28.955506
+2002,New Mexico,Industrial carbon dioxide emissions,Coal,0.169258
+2002,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.048158
+2002,New Mexico,Industrial carbon dioxide emissions,Natural Gas,4.774912
+2002,New Mexico,Industrial carbon dioxide emissions,All Fuels,6.992328
+2002,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,55.478844
+2002,New Mexico,Total carbon dioxide emissions from all sectors,Coal,27.125717
+2002,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.396624
+2002,New Mexico,Residential carbon dioxide emissions,Petroleum,0.635067
+2003,New Mexico,Residential carbon dioxide emissions,Coal,0.000954
+2003,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.70979
+2003,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.714773
+2003,New Mexico,Residential carbon dioxide emissions,All Fuels,2.207527
+2003,New Mexico,Commercial carbon dioxide emissions,Coal,0.006299
+2003,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.486291
+2003,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.28775
+2003,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.78034
+2003,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.628222
+2003,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.598023
+2003,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.226244
+2003,New Mexico,Electric Power carbon dioxide emissions,Coal,29.028622
+2003,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.038092
+2003,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.00739
+2003,New Mexico,Electric Power carbon dioxide emissions,All Fuels,31.074104
+2003,New Mexico,Industrial carbon dioxide emissions,Coal,0.187574
+2003,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.309634
+2003,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.101855
+2003,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.599063
+2003,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,57.887279
+2003,New Mexico,Total carbon dioxide emissions from all sectors,Coal,29.22345
+2003,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.954039
+2003,New Mexico,Residential carbon dioxide emissions,Petroleum,0.491799
+2004,New Mexico,Residential carbon dioxide emissions,Coal,0.000759
+2004,New Mexico,Residential carbon dioxide emissions,Petroleum,0.439634
+2004,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.868497
+2004,New Mexico,Residential carbon dioxide emissions,All Fuels,2.30889
+2004,New Mexico,Commercial carbon dioxide emissions,Coal,0.00655
+2004,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.321039
+2004,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.385257
+2004,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.712846
+2004,New Mexico,Transportation carbon dioxide emissions,Petroleum,14.247603
+2004,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.487391
+2004,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.734994
+2004,New Mexico,Electric Power carbon dioxide emissions,Coal,29.392099
+2004,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.022952
+2004,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,1.670118
+2004,New Mexico,Electric Power carbon dioxide emissions,All Fuels,31.085169
+2004,New Mexico,Industrial carbon dioxide emissions,Coal,0.185306
+2004,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.376235
+2004,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.52749
+2004,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.089031
+2004,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,58.930929
+2004,New Mexico,Total carbon dioxide emissions from all sectors,Coal,29.584714
+2004,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,17.407463
+2004,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.938752
+2005,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.313836
+2005,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.69907
+2005,New Mexico,Transportation carbon dioxide emissions,Petroleum,14.238763
+2005,New Mexico,Transportation carbon dioxide emissions,Natural Gas,1.08304
+2005,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.321802
+2005,New Mexico,Electric Power carbon dioxide emissions,Coal,30.209898
+2005,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.027934
+2005,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.196778
+2005,New Mexico,Electric Power carbon dioxide emissions,All Fuels,32.43461
+2005,New Mexico,Industrial carbon dioxide emissions,Coal,0.182129
+2005,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.236094
+2005,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.344045
+2005,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.762268
+2005,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,59.49885
+2005,New Mexico,Total carbon dioxide emissions from all sectors,Coal,30.399188
+2005,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,17.356156
+2005,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.743506
+2005,New Mexico,Residential carbon dioxide emissions,Coal,0.000573
+2005,New Mexico,Residential carbon dioxide emissions,Petroleum,0.474719
+2005,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.805808
+2005,New Mexico,Residential carbon dioxide emissions,All Fuels,2.2811
+2005,New Mexico,Commercial carbon dioxide emissions,Coal,0.006588
+2005,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.378646
+2006,New Mexico,Residential carbon dioxide emissions,Coal,0.000674
+2006,New Mexico,Residential carbon dioxide emissions,Petroleum,0.493138
+2006,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.64818
+2006,New Mexico,Residential carbon dioxide emissions,All Fuels,2.141992
+2006,New Mexico,Commercial carbon dioxide emissions,Coal,0.006836
+2006,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.273979
+2006,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.26739
+2006,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.548205
+2006,New Mexico,Transportation carbon dioxide emissions,Petroleum,15.024473
+2006,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.960457
+2006,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.98493
+2006,New Mexico,Electric Power carbon dioxide emissions,Coal,29.988963
+2006,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.031681
+2006,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,2.965833
+2006,New Mexico,Electric Power carbon dioxide emissions,All Fuels,32.986477
+2006,New Mexico,Industrial carbon dioxide emissions,Coal,0.183359
+2006,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.504595
+2006,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.054798
+2006,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.742751
+2006,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,60.404355
+2006,New Mexico,Total carbon dioxide emissions from all sectors,Coal,30.179832
+2006,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,18.327865
+2006,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,11.896658
+2007,New Mexico,Residential carbon dioxide emissions,Coal,0.000665
+2007,New Mexico,Residential carbon dioxide emissions,Petroleum,0.418693
+2007,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.821025
+2007,New Mexico,Residential carbon dioxide emissions,All Fuels,2.240383
+2007,New Mexico,Commercial carbon dioxide emissions,Coal,0.006175
+2007,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.187015
+2007,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.353442
+2007,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.546632
+2007,New Mexico,Transportation carbon dioxide emissions,Petroleum,14.639858
+2007,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.744931
+2007,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.384789
+2007,New Mexico,Electric Power carbon dioxide emissions,Coal,28.07103
+2007,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.035343
+2007,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.294663
+2007,New Mexico,Electric Power carbon dioxide emissions,All Fuels,31.401035
+2007,New Mexico,Industrial carbon dioxide emissions,Coal,0.178106
+2007,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.961023
+2007,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.312355
+2007,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.451484
+2007,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,59.024323
+2007,New Mexico,Total carbon dioxide emissions from all sectors,Coal,28.255976
+2007,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,18.241932
+2007,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,12.526416
+2008,New Mexico,Residential carbon dioxide emissions,Petroleum,0.438066
+2008,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.85289
+2008,New Mexico,Residential carbon dioxide emissions,All Fuels,2.290956
+2008,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.366247
+2008,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.372582
+2008,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.738829
+2008,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.260062
+2008,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.747688
+2008,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.007751
+2008,New Mexico,Electric Power carbon dioxide emissions,Coal,26.99993
+2008,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.043659
+2008,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.707689
+2008,New Mexico,Electric Power carbon dioxide emissions,All Fuels,30.751277
+2008,New Mexico,Industrial carbon dioxide emissions,Coal,0.148012
+2008,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.343537
+2008,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.511592
+2008,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.00314
+2008,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,56.791954
+2008,New Mexico,Total carbon dioxide emissions from all sectors,Coal,27.147942
+2008,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.451572
+2008,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.19244
+2009,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,12.922511
+2009,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.767795
+2009,New Mexico,Residential carbon dioxide emissions,All Fuels,2.2068
+2009,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.205131
+2009,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.347533
+2009,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.552665
+2009,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.099792
+2009,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.64501
+2009,New Mexico,Transportation carbon dioxide emissions,All Fuels,13.744802
+2009,New Mexico,Electric Power carbon dioxide emissions,Coal,29.092756
+2009,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.036569
+2009,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.821725
+2009,New Mexico,Electric Power carbon dioxide emissions,All Fuels,32.95105
+2009,New Mexico,Industrial carbon dioxide emissions,Coal,0.138627
+2009,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.798778
+2009,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.340448
+2009,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.277853
+2009,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,57.73317
+2009,New Mexico,Total carbon dioxide emissions from all sectors,Coal,29.231383
+2009,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,15.579276
+2009,New Mexico,Residential carbon dioxide emissions,Petroleum,0.439005
+2010,New Mexico,Residential carbon dioxide emissions,Petroleum,0.395269
+2010,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.910404
+2010,New Mexico,Residential carbon dioxide emissions,All Fuels,2.305673
+2010,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.201194
+2010,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.363171
+2010,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.564365
+2010,New Mexico,Transportation carbon dioxide emissions,Petroleum,12.889922
+2010,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.482141
+2010,New Mexico,Transportation carbon dioxide emissions,All Fuels,13.372062
+2010,New Mexico,Electric Power carbon dioxide emissions,Coal,25.443921
+2010,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.03963
+2010,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.835038
+2010,New Mexico,Electric Power carbon dioxide emissions,All Fuels,29.318588
+2010,New Mexico,Industrial carbon dioxide emissions,Coal,0.103543
+2010,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.982329
+2010,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.26214
+2010,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.348013
+2010,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,53.908702
+2010,New Mexico,Total carbon dioxide emissions from all sectors,Coal,25.547464
+2010,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,15.508344
+2010,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,12.852894
+2011,New Mexico,Residential carbon dioxide emissions,Petroleum,0.357757
+2011,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.861452
+2011,New Mexico,Residential carbon dioxide emissions,All Fuels,2.21921
+2011,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.189536
+2011,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.358711
+2011,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.548247
+2011,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.398755
+2011,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.397085
+2011,New Mexico,Transportation carbon dioxide emissions,All Fuels,13.79584
+2011,New Mexico,Electric Power carbon dioxide emissions,Coal,27.142589
+2011,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.030768
+2011,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,3.979876
+2011,New Mexico,Electric Power carbon dioxide emissions,All Fuels,31.153233
+2011,New Mexico,Industrial carbon dioxide emissions,Coal,0.054184
+2011,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.965534
+2011,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.542038
+2011,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.561756
+2011,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,56.278286
+2011,New Mexico,Total carbon dioxide emissions from all sectors,Coal,27.196773
+2011,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,15.94235
+2011,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.139163
+2012,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.013051
+2012,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.763975
+2012,New Mexico,Residential carbon dioxide emissions,All Fuels,2.071016
+2012,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.200218
+2012,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.350717
+2012,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.550935
+2012,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.402152
+2012,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.41867
+2012,New Mexico,Transportation carbon dioxide emissions,All Fuels,13.820822
+2012,New Mexico,Electric Power carbon dioxide emissions,Coal,25.075488
+2012,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.037515
+2012,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,4.053317
+2012,New Mexico,Electric Power carbon dioxide emissions,All Fuels,29.16632
+2012,New Mexico,Industrial carbon dioxide emissions,Coal,0.09654
+2012,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.057027
+2012,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.426372
+2012,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.579938
+2012,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,54.189031
+2012,New Mexico,Total carbon dioxide emissions from all sectors,Coal,25.172028
+2012,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.003953
+2012,New Mexico,Residential carbon dioxide emissions,Petroleum,0.307041
+2013,New Mexico,Residential carbon dioxide emissions,All Fuels,2.330278
+2013,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.968208
+2013,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.19105
+2013,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.463723
+2013,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.654773
+2013,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.410066
+2013,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.488367
+2013,New Mexico,Transportation carbon dioxide emissions,All Fuels,13.898433
+2013,New Mexico,Electric Power carbon dioxide emissions,Coal,24.369836
+2013,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.047176
+2013,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,4.081374
+2013,New Mexico,Electric Power carbon dioxide emissions,All Fuels,28.498386
+2013,New Mexico,Industrial carbon dioxide emissions,Coal,0.117895
+2013,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.080371
+2013,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.175156
+2013,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.373422
+2013,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,53.755291
+2013,New Mexico,Total carbon dioxide emissions from all sectors,Coal,24.487731
+2013,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.090732
+2013,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.176828
+2013,New Mexico,Residential carbon dioxide emissions,Petroleum,0.362069
+2014,New Mexico,Residential carbon dioxide emissions,Petroleum,0.308406
+2014,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.774094
+2014,New Mexico,Residential carbon dioxide emissions,All Fuels,2.0825
+2014,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.224579
+2014,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.407979
+2014,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.632559
+2014,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.922799
+2014,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.477592
+2014,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.400391
+2014,New Mexico,Electric Power carbon dioxide emissions,Coal,20.422981
+2014,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.05274
+2014,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,4.214294
+2014,New Mexico,Electric Power carbon dioxide emissions,All Fuels,24.690015
+2014,New Mexico,Industrial carbon dioxide emissions,Coal,0.137968
+2014,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.197444
+2014,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.450322
+2014,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.785734
+2014,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,50.591199
+2014,New Mexico,Total carbon dioxide emissions from all sectors,Coal,20.560949
+2014,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.705969
+2014,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.324281
+2015,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.335356
+2015,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.375607
+2015,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.710963
+2015,New Mexico,Transportation carbon dioxide emissions,Petroleum,14.002128
+2015,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.484021
+2015,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.486149
+2015,New Mexico,Electric Power carbon dioxide emissions,Coal,20.457503
+2015,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.0539
+2015,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,4.29862
+2015,New Mexico,Electric Power carbon dioxide emissions,All Fuels,24.810022
+2015,New Mexico,Industrial carbon dioxide emissions,Coal,0.161209
+2015,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.894851
+2015,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.533961
+2015,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.590021
+2015,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,50.692518
+2015,New Mexico,Total carbon dioxide emissions from all sectors,Coal,20.618711
+2015,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.561388
+2015,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.512419
+2015,New Mexico,Residential carbon dioxide emissions,Petroleum,0.275153
+2015,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.82021
+2015,New Mexico,Residential carbon dioxide emissions,All Fuels,2.095363
+2016,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,13.475898
+2016,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.799205
+2016,New Mexico,Residential carbon dioxide emissions,All Fuels,2.103439
+2016,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.318247
+2016,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.3782
+2016,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.696447
+2016,New Mexico,Transportation carbon dioxide emissions,Petroleum,13.726005
+2016,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.47074
+2016,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.196745
+2016,New Mexico,Electric Power carbon dioxide emissions,Coal,18.659177
+2016,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.042906
+2016,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,4.517138
+2016,New Mexico,Electric Power carbon dioxide emissions,All Fuels,23.219221
+2016,New Mexico,Industrial carbon dioxide emissions,Coal,0.172562
+2016,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.147294
+2016,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.310615
+2016,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.630471
+2016,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,48.846323
+2016,New Mexico,Total carbon dioxide emissions from all sectors,Coal,18.831739
+2016,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.538686
+2016,New Mexico,Residential carbon dioxide emissions,Petroleum,0.304234
+2017,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,12.955851
+2017,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.651903
+2017,New Mexico,Residential carbon dioxide emissions,All Fuels,1.904991
+2017,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.28783
+2017,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.30111
+2017,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.588939
+2017,New Mexico,Transportation carbon dioxide emissions,Petroleum,14.668848
+2017,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.492116
+2017,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.160964
+2017,New Mexico,Electric Power carbon dioxide emissions,Coal,18.87068
+2017,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.034384
+2017,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,4.169308
+2017,New Mexico,Electric Power carbon dioxide emissions,All Fuels,23.074371
+2017,New Mexico,Industrial carbon dioxide emissions,Coal,0.169798
+2017,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.379958
+2017,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.341414
+2017,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.891171
+2017,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,49.620436
+2017,New Mexico,Total carbon dioxide emissions from all sectors,Coal,19.040478
+2017,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,17.624107
+2017,New Mexico,Residential carbon dioxide emissions,Petroleum,0.253087
+2018,New Mexico,Residential carbon dioxide emissions,Petroleum,0.279373
+2018,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.885554
+2018,New Mexico,Residential carbon dioxide emissions,All Fuels,2.164926
+2018,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.294557
+2018,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.420739
+2018,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.715297
+2018,New Mexico,Transportation carbon dioxide emissions,Petroleum,15.189131
+2018,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.554497
+2018,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.743628
+2018,New Mexico,Electric Power carbon dioxide emissions,Coal,12.917516
+2018,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.017794
+2018,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,5.406661
+2018,New Mexico,Electric Power carbon dioxide emissions,All Fuels,18.34197
+2018,New Mexico,Industrial carbon dioxide emissions,Coal,0.171459
+2018,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.340053
+2018,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.37814
+2018,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.889652
+2018,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,45.855474
+2018,New Mexico,Total carbon dioxide emissions from all sectors,Coal,13.088974
+2018,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,18.120908
+2018,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,14.645591
+2019,New Mexico,Residential carbon dioxide emissions,Petroleum,0.302907
+2019,New Mexico,Residential carbon dioxide emissions,Natural Gas,2.312908
+2019,New Mexico,Residential carbon dioxide emissions,All Fuels,2.615815
+2019,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.384172
+2019,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.61857
+2019,New Mexico,Commercial carbon dioxide emissions,All Fuels,2.002741
+2019,New Mexico,Transportation carbon dioxide emissions,Petroleum,15.259502
+2019,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.677142
+2019,New Mexico,Transportation carbon dioxide emissions,All Fuels,15.936644
+2019,New Mexico,Electric Power carbon dioxide emissions,Coal,14.344956
+2019,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.29997
+2019,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,5.638354
+2019,New Mexico,Electric Power carbon dioxide emissions,All Fuels,20.283281
+2019,New Mexico,Industrial carbon dioxide emissions,Coal,0.13937
+2019,New Mexico,Industrial carbon dioxide emissions,Petroleum,2.299054
+2019,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.666986
+2019,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.10541
+2019,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,48.943892
+2019,New Mexico,Total carbon dioxide emissions from all sectors,Coal,14.484326
+2019,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,18.545605
+2019,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,15.91396
+2020,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,15.198359
+2020,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.985448
+2020,New Mexico,Residential carbon dioxide emissions,All Fuels,2.292504
+2020,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.327328
+2020,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.384496
+2020,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.711824
+2020,New Mexico,Transportation carbon dioxide emissions,Petroleum,14.216697
+2020,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.722169
+2020,New Mexico,Transportation carbon dioxide emissions,All Fuels,14.938866
+2020,New Mexico,Electric Power carbon dioxide emissions,Coal,13.160405
+2020,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.028692
+2020,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,5.412058
+2020,New Mexico,Electric Power carbon dioxide emissions,All Fuels,18.601156
+2020,New Mexico,Industrial carbon dioxide emissions,Coal,0.149176
+2020,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.825529
+2020,New Mexico,Industrial carbon dioxide emissions,Natural Gas,5.694189
+2020,New Mexico,Industrial carbon dioxide emissions,All Fuels,7.668894
+2020,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,45.213243
+2020,New Mexico,Total carbon dioxide emissions from all sectors,Coal,13.309581
+2020,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,16.705303
+2020,New Mexico,Residential carbon dioxide emissions,Petroleum,0.307056
+2021,New Mexico,Total carbon dioxide emissions from all sectors,Natural Gas,14.797958
+2021,New Mexico,Residential carbon dioxide emissions,Natural Gas,1.940898
+2021,New Mexico,Residential carbon dioxide emissions,All Fuels,2.257971
+2021,New Mexico,Commercial carbon dioxide emissions,Petroleum,0.355682
+2021,New Mexico,Commercial carbon dioxide emissions,Natural Gas,1.470633
+2021,New Mexico,Commercial carbon dioxide emissions,All Fuels,1.826315
+2021,New Mexico,Transportation carbon dioxide emissions,Petroleum,15.665489
+2021,New Mexico,Transportation carbon dioxide emissions,Natural Gas,0.607301
+2021,New Mexico,Transportation carbon dioxide emissions,All Fuels,16.27279
+2021,New Mexico,Electric Power carbon dioxide emissions,Coal,12.631016
+2021,New Mexico,Electric Power carbon dioxide emissions,Petroleum,0.02847
+2021,New Mexico,Electric Power carbon dioxide emissions,Natural Gas,4.465657
+2021,New Mexico,Electric Power carbon dioxide emissions,All Fuels,17.125142
+2021,New Mexico,Industrial carbon dioxide emissions,Coal,0.133406
+2021,New Mexico,Industrial carbon dioxide emissions,Petroleum,1.959901
+2021,New Mexico,Industrial carbon dioxide emissions,Natural Gas,6.313469
+2021,New Mexico,Industrial carbon dioxide emissions,All Fuels,8.406776
+2021,New Mexico,Total carbon dioxide emissions from all sectors,All Fuels,45.888995
+2021,New Mexico,Total carbon dioxide emissions from all sectors,Coal,12.764421
+2021,New Mexico,Total carbon dioxide emissions from all sectors,Petroleum,18.326616
+2021,New Mexico,Residential carbon dioxide emissions,Petroleum,0.317074
