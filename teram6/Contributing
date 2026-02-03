@@ -1,0 +1,20 @@
+# Contributing Guide
+
+## Branching & Forking
+- Team members: **fork** the repo and create a branch named exactly your full name (e.g., `adam-pham`).
+- Work **only** in your subsection inside `README.md` under *Team Member Contributions*.
+
+## Commit Message Format
+Use  
+`docs: add contribution - <your-name>`
+
+## Pull Requests
+- Title: `Add contribution — <your-name>`
+- Only edit your own named subsection in `README.md`.
+- Keep commits small and focused.
+
+## Reviews & Merging (TL)
+- Verify that each PR adds clear, scoped content aligned with the project.
+- Use **Squash & Merge** for a clean history.
+- After all merges, TL adds the **Final Conclusion** section.
+
