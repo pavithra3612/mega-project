@@ -1,0 +1,68 @@
+# ---------------------------
+# 1. Load the dataset
+# ---------------------------
+file_path = "https://github.com/kassandrasage24-ctrl/ENG220-19/blob/main/global_water_consumption.csv"  # change to your file name if needed
+df = pd.read_csv(file_path)
+
+# ---------------------------
+# 2. Inspect and clean data
+# ---------------------------
+print("Initial Data Info:")
+print(df.info())
+print("\nMissing values per column:")
+print(df.isnull().sum())
+
+# Standardize column names (remove spaces and lowercase)
+df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
+
+# Drop completely empty rows
+df.dropna(how="all", inplace=True)
+
+# Fill missing numeric values with column mean
+df.fillna(df.mean(numeric_only=True), inplace=True)
+
+# ---------------------------
+# 3. Filter for 2010–2024
+# ---------------------------
+if "year" not in df.columns:
+    raise KeyError("Dataset must contain a 'year' column.")
+
+df = df[(df["year"] >= 2010) & (df["year"] <= 2024)]
+
+# ---------------------------
+# 4. Select key columns
+# ---------------------------
+key_columns = ["year", "water_usage", "groundwater_depletion", "rainfall"]
+missing = [col for col in key_columns if col not in df.columns]
+if missing:
+    raise KeyError(f"Missing expected columns: {missing}")
+
+data = df[key_columns]
+
+# ---------------------------
+# 5. Group by year and calculate stats
+# ---------------------------
+summary = data.groupby("year").agg(
+    {
+        "water_usage": ["mean", "min", "max", "std"],
+        "groundwater_depletion": ["mean", "min", "max", "std"],
+        "rainfall": ["mean", "min", "max", "std"],
+    }
+)
+
+# Flatten multi-level columns
+summary.columns = ["_".join(col).strip() for col in summary.columns.values]
+summary.reset_index(inplace=True)
+
+# ---------------------------
+# 6. Export summary to CSV
+# ---------------------------
+summary.to_csv("water_data_summary_2010_2024.csv", index=False)
+
+# ---------------------------
+# 7. Print results
+# ---------------------------
+print("\nSummary statistics (2010–2024):")
+print(summary.head())
+print("\nSaved as 'water_data_summary_2010_2024.csv'")
+

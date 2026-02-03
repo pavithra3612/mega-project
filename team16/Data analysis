@@ -1,0 +1,98 @@
+import pandas as pd
+
+# -----------------------------
+# 1. Load the CSV file
+# -----------------------------
+
+# Make sure this file is in the same folder as this .py file
+FILE_NAME = "cleaned_global_water_consumption.csv"
+
+df = pd.read_csv(FILE_NAME)
+
+# -----------------------------
+# 2. Check the columns (just to be safe)
+# -----------------------------
+print("Columns in the file:")
+print(df.columns.tolist())
+print()  # blank line
+
+# The file should have something like:
+# Country
+# Year
+# Total Water Consumption (Billion Cubic Meters)
+# Per Capita Water Use (Liters per Day)
+# Agricultural Water Use (%)
+# Industrial Water Use (%)
+# Household Water Use (%)
+# Rainfall Impact (Annual Precipitation in mm)
+# Groundwater Depletion Rate (%)
+
+# -----------------------------
+# 3. Make sure number columns are numeric
+# -----------------------------
+numeric_columns = [
+    "Year",
+    "Total Water Consumption (Billion Cubic Meters)",
+    "Per Capita Water Use (Liters per Day)",
+    "Agricultural Water Use (%)",
+    "Industrial Water Use (%)",
+    "Household Water Use (%)",
+    "Rainfall Impact (Annual Precipitation in mm)",
+    "Groundwater Depletion Rate (%)"
+]
+
+for col in numeric_columns:
+    df[col] = pd.to_numeric(df[col], errors="coerce")
+
+# Drop rows that are missing any of these numbers
+df = df.dropna(subset=numeric_columns)
+
+# -----------------------------
+# 4. (OPTIONAL) If you ever need only 2000–2010, uncomment this:
+# -----------------------------
+# df = df[(df["Year"] >= 2000) & (df["Year"] <= 2010)]
+
+# -----------------------------
+# 5. Pick the columns we want stats for
+# -----------------------------
+
+metrics = [
+    "Total Water Consumption (Billion Cubic Meters)",
+    "Per Capita Water Use (Liters per Day)",
+    "Agricultural Water Use (%)",
+    "Industrial Water Use (%)",
+    "Household Water Use (%)",
+    "Rainfall Impact (Annual Precipitation in mm)",
+    "Groundwater Depletion Rate (%)"
+]
+
+# -----------------------------
+# 6. Group by year and get mean, min, max, std
+# -----------------------------
+
+grouped = df.groupby("Year")[metrics].agg(["mean", "min", "max", "std"])
+
+# This creates a MultiIndex for the columns.
+# Let's flatten it so the headers look nice in Excel.
+flat_columns = []
+
+for main_name, stat_name in grouped.columns:
+    # example: "Total Water Consumption (Billion Cubic Meters)_mean"
+    flat_columns.append(f"{main_name} ({stat_name})")
+
+grouped.columns = flat_columns
+
+# Move Year from index to a normal column
+grouped = grouped.reset_index()
+
+# -----------------------------
+# 7. Save to a new CSV file
+# -----------------------------
+
+OUTPUT_FILE = "yearly_water_stats.csv"
+grouped.to_csv(OUTPUT_FILE, index=False)
+
+print(f"Done! Stats saved to: {OUTPUT_FILE}")
+print("Here are the first few lines:")
+print(grouped.head())
+
