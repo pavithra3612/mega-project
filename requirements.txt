@@ -1,0 +1,11 @@
+streamlit
+st-pages
+pandas
+numpy
+matplotlib
+plotly
+altair
+scikit-learn
+pydeck
+openpyxl
+geopandas
