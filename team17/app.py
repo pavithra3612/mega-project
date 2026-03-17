@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
 
 st.title("CO₂ Emissions — Best and Worst Countries")
 
@@ -11,21 +13,20 @@ st.write(
 uploaded_file = st.file_uploader("Upload Summary CSV", type=["csv"])
 
 if uploaded_file is not None:
-    # Load dataset
     T = pd.read_csv(uploaded_file)
+else:
+    T = pd.read_csv(BASE_DIR / "country_CO2_statistics.csv")
 
-    # Validate required columns
-    if "Country" not in T.columns or "Sum" not in T.columns:
-        st.error("Dataset must contain 'Country' and 'Sum' columns.")
-    else:
-        # Slider for number of countries to show
-        num = st.slider("Number of countries to display", 5, 30, 10)
+# Validate required columns
+if "Country" not in T.columns or "Sum" not in T.columns:
+    st.error("Dataset must contain 'Country' and 'Sum' columns.")
+else:
+    num = st.slider("Number of countries to display", 5, 30, 10)
 
-        # Choose best or worst countries
-        choice = st.radio(
-            "Select view:",
-            ("Best (Lowest CO₂ Emitters)", "Worst (Highest CO₂ Emitters)")
-        )
+    choice = st.radio(
+        "Select view:",
+        ("Best (Lowest CO₂ Emitters)", "Worst (Highest CO₂ Emitters)")
+    )
 
         # Compute subset
         if choice == "Best (Lowest CO₂ Emitters)":
