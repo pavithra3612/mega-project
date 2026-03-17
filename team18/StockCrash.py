@@ -54,9 +54,15 @@ def load_data(path: Path) -> pd.DataFrame:
 
 try:
     df = load_data(CSV_PATH)
-except FileNotFoundError as e:
-    st.error(str(e))
-    st.stop()
+except FileNotFoundError:
+    st.warning("⚠️ Dataset not available for Team 18. Showing demo data instead.")
+
+    # --- DEMO DATA ---
+    dates = pd.date_range(start="2000-01-01", periods=300)
+    df = pd.DataFrame({
+        "Date": dates,
+        "Index_Change_Percent": np.random.normal(0, 2, size=300),
+        "Trading_Volume": np.random.randint(1000, 10000, size=300)
 
 # -----------------------------
 # Clean / prepare data
