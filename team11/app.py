@@ -142,6 +142,8 @@ data["Country"] = data["Country"].str.strip()
 data["Country"] = data["Country"].str.replace(r"\s+", " ", regex=True)
 
 def country_to_continent(country_name):
+    if pc is None:
+        return "Other"
     try:
         alpha = pc.country_name_to_country_alpha2(country_name)
         cont = pc.country_alpha2_to_continent_code(alpha)
