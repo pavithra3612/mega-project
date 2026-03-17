@@ -1,162 +1,248 @@
-
 import streamlit as st
+from pathlib import Path
 
-import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
+from sklearn.linear_model import LogisticRegression
 
-import tensorflow as tf
-from tensorflow.keras import layers, models
-from tensorflow.keras.callbacks import EarlyStopping
+# Optional TensorFlow import
+try:
+    import tensorflow as tf
+    from tensorflow.keras import layers, models
+    from tensorflow.keras.callbacks import EarlyStopping
+except ModuleNotFoundError:
+    tf = None
+    layers = None
+    models = None
+    EarlyStopping = None
 
-# 0. define variables
+# -----------------------------
+# Page setup
+# -----------------------------
+st.set_page_config(page_title="Stock Crash Analysis", layout="wide")
+st.title("📉 Stock Crash Analysis Dashboard")
 
-CSV_PATH = "CleanedUp.csv"  
-CRASH_THRESHOLD = -4.0       # define a the crash variable
-TEST_SIZE = 0.2              # 20% test, 80% train
+# -----------------------------
+# Config
+# -----------------------------
+BASE_DIR = Path(__file__).resolve().parent
+CSV_PATH = BASE_DIR / "CleanedUp.csv"
+
+CRASH_THRESHOLD = -4.0
+TEST_SIZE = 0.2
 RANDOM_SEED = 42
 EPOCHS = 50
 BATCH_SIZE = 32
 
 np.random.seed(RANDOM_SEED)
-tf.random.set_seed(RANDOM_SEED)
+if tf is not None:
+    tf.random.set_seed(RANDOM_SEED)
 
-# 1. load and then filter/clean data
-if not os.path.exists(CSV_PATH):
-    raise FileNotFoundError(f"Could not find {CSV_PATH} in current folder.")
+# -----------------------------
+# Load data
+# -----------------------------
+@st.cache_data
+def load_data(path: Path) -> pd.DataFrame:
+    if not path.exists():
+        raise FileNotFoundError(f"Could not find {path.name} in team18 folder.")
+    return pd.read_csv(path)
 
-df = pd.read_csv(CSV_PATH)
+try:
+    df = load_data(CSV_PATH)
+except FileNotFoundError as e:
+    st.error(str(e))
+    st.stop()
 
-# filters columns we want to run
+# -----------------------------
+# Clean / prepare data
+# -----------------------------
 cols_to_keep = ["Date", "Index_Change_Percent", "Trading_Volume"]
+missing_cols = [c for c in cols_to_keep if c not in df.columns]
+
+if missing_cols:
+    st.error(f"Missing required columns: {missing_cols}")
+    st.stop()
+
 df = df[cols_to_keep].copy()
-
-# date parsing
 df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
-
-# rows with missing data will be dropped
 df = df.dropna(subset=["Index_Change_Percent", "Trading_Volume"])
 
-
-# 2. CRASH label
-# crash = 1 if index change <= threshold, else 0
+# Crash label
 df["Crash"] = (df["Index_Change_Percent"] <= CRASH_THRESHOLD).astype(int)
 
-print("Total rows:", len(df))
-print("Number of crashes:", df["Crash"].sum())
-print("Number of non-crashes:", (df["Crash"] == 0).sum())
+# -----------------------------
+# Summary metrics
+# -----------------------------
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.metric("Total Rows", len(df))
+with col2:
+    st.metric("Crash Days", int(df["Crash"].sum()))
+with col3:
+    st.metric("Non-Crash Days", int((df["Crash"] == 0).sum()))
 
-# 3. plotting the crashes
-#= plot: x = date, y = index change, crashes in red
-plt.figure(figsize=(10, 5))
+# -----------------------------
+# Plot crashes over time
+# -----------------------------
+st.subheader("Crash vs Normal Days Over Time")
+
+fig1, ax1 = plt.subplots(figsize=(10, 5))
 
 normal = df[df["Crash"] == 0]
 crash = df[df["Crash"] == 1]
 
-plt.scatter(normal["Date"], normal["Index_Change_Percent"],
-            label="Normal", alpha=0.5)
-plt.scatter(crash["Date"], crash["Index_Change_Percent"],
-            label="Crash", alpha=0.9, marker="x")
+ax1.scatter(
+    normal["Date"],
+    normal["Index_Change_Percent"],
+    label="Normal",
+    alpha=0.5
+)
+ax1.scatter(
+    crash["Date"],
+    crash["Index_Change_Percent"],
+    label="Crash",
+    alpha=0.9,
+    marker="x"
+)
 
-plt.axhline(CRASH_THRESHOLD, linestyle="--")
-plt.title("Index Change Percent Over Time (Crashes Highlighted)")
-plt.xlabel("Date")
-plt.ylabel("Index Change Percent")
-plt.legend()
-plt.tight_layout()
-# saves crash plot as png image
-plt.savefig("crashes_plot.png", dpi=200)
-plt.show()
+ax1.axhline(CRASH_THRESHOLD, linestyle="--")
+ax1.set_title("Index Change Percent Over Time (Crashes Highlighted)")
+ax1.set_xlabel("Date")
+ax1.set_ylabel("Index Change Percent")
+ax1.legend()
+ax1.grid(True)
+fig1.tight_layout()
 
-print("Saved plot as crashes_plot.png")
+st.pyplot(fig1)
 
-# 4. preps data for ML model
+# -----------------------------
+# Prepare ML data
+# -----------------------------
 X = df[["Index_Change_Percent", "Trading_Volume"]].values
 y = df["Crash"].values
 
+# Need at least 2 classes
+if len(np.unique(y)) < 2:
+    st.warning("The dataset does not contain both crash and non-crash classes.")
+    st.stop()
+
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=TEST_SIZE, random_state=RANDOM_SEED, stratify=y
+    X,
+    y,
+    test_size=TEST_SIZE,
+    random_state=RANDOM_SEED,
+    stratify=y
 )
 
-# Scaling features (common for ML / neural nets)
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-# 5. building the neural network
-model = models.Sequential([
-    layers.Input(shape=(X_train_scaled.shape[1],)), 
-    layers.Dense(16, activation="relu"),
-    layers.Dense(8, activation="relu"),
-    layers.Dense(1, activation="sigmoid") 
-])
+# -----------------------------
+# Train model
+# -----------------------------
+st.subheader("Model Training")
 
-model.compile(
-    optimizer="adam",
-    loss="binary_crossentropy",
-    metrics=["accuracy"]
+if tf is not None:
+    st.success("TensorFlow detected — using Neural Network model.")
+
+    model = models.Sequential([
+        layers.Input(shape=(X_train_scaled.shape[1],)),
+        layers.Dense(16, activation="relu"),
+        layers.Dense(8, activation="relu"),
+        layers.Dense(1, activation="sigmoid")
+    ])
+
+    model.compile(
+        optimizer="adam",
+        loss="binary_crossentropy",
+        metrics=["accuracy"]
+    )
+
+    early_stop = EarlyStopping(
+        monitor="val_loss",
+        patience=5,
+        restore_best_weights=True
+    )
+
+    history = model.fit(
+        X_train_scaled,
+        y_train,
+        validation_split=0.2,
+        epochs=EPOCHS,
+        batch_size=BATCH_SIZE,
+        callbacks=[early_stop],
+        verbose=0
+    )
+
+    # Plot training loss
+    fig2, ax2 = plt.subplots(figsize=(8, 4))
+    ax2.plot(history.history["loss"], label="Train loss")
+    ax2.plot(history.history["val_loss"], label="Val loss")
+    ax2.set_xlabel("Epoch")
+    ax2.set_ylabel("Loss")
+    ax2.set_title("Training vs Validation Loss")
+    ax2.legend()
+    ax2.grid(True)
+    fig2.tight_layout()
+    st.pyplot(fig2)
+
+    # Plot training accuracy
+    fig3, ax3 = plt.subplots(figsize=(8, 4))
+    ax3.plot(history.history["accuracy"], label="Train accuracy")
+    ax3.plot(history.history["val_accuracy"], label="Val accuracy")
+    ax3.set_xlabel("Epoch")
+    ax3.set_ylabel("Accuracy")
+    ax3.set_title("Training vs Validation Accuracy")
+    ax3.legend()
+    ax3.grid(True)
+    fig3.tight_layout()
+    st.pyplot(fig3)
+
+    # Predictions
+    y_pred_prob = model.predict(X_test_scaled, verbose=0).ravel()
+    y_pred = (y_pred_prob >= 0.5).astype(int)
+
+else:
+    st.warning("TensorFlow not available — using Logistic Regression fallback.")
+
+    model = LogisticRegression(random_state=RANDOM_SEED, max_iter=1000)
+    model.fit(X_train_scaled, y_train)
+    y_pred = model.predict(X_test_scaled)
+
+# -----------------------------
+# Evaluation
+# -----------------------------
+st.subheader("Model Evaluation")
+
+acc = accuracy_score(y_test, y_pred)
+cm = confusion_matrix(y_test, y_pred)
+report = classification_report(y_test, y_pred, digits=3)
+
+col4, col5 = st.columns(2)
+with col4:
+    st.metric("Test Accuracy", f"{acc:.3f}")
+with col5:
+    st.metric("Test Samples", len(y_test))
+
+st.write("### Confusion Matrix")
+cm_df = pd.DataFrame(
+    cm,
+    index=["Actual 0", "Actual 1"],
+    columns=["Pred 0", "Pred 1"]
 )
+st.dataframe(cm_df)
 
-model.summary()
+st.write("### Classification Report")
+st.text(report)
 
-# Early stopping so it doesn’t overtrain
-early_stop = EarlyStopping(
-    monitor="val_loss",
-    patience=5,
-    restore_best_weights=True
-)
-
-# 6. training the model
-history = model.fit(
-    X_train_scaled,
-    y_train,
-    validation_split=0.2,
-    epochs=EPOCHS,
-    batch_size=BATCH_SIZE,
-    callbacks=[early_stop],
-    verbose=1
-)
-
-# 7. plotting training results
-
-# Loss plot
-plt.figure(figsize=(8, 4))
-plt.plot(history.history["loss"], label="Train loss")
-plt.plot(history.history["val_loss"], label="Val loss")
-plt.xlabel("Epoch")
-plt.ylabel("Loss")
-plt.title("Training vs Validation Loss")
-plt.legend()
-plt.tight_layout()
-# saves figure
-plt.savefig("training_loss.png", dpi=200)
-plt.show()
-
-# Accuracy plot
-plt.figure(figsize=(8, 4))
-plt.plot(history.history["accuracy"], label="Train acc")
-plt.plot(history.history["val_accuracy"], label="Val acc")
-plt.xlabel("Epoch")
-plt.ylabel("Accuracy")
-plt.title("Training vs Validation Accuracy")
-plt.legend()
-plt.tight_layout()
-# saves figure
-plt.savefig("training_accuracy.png", dpi=200)
-plt.show()
-
-# 8. evaluate test set
-y_pred_prob = model.predict(X_test_scaled).ravel()
-y_pred = (y_pred_prob >= 0.5).astype(int)
-
-print("\nConfusion Matrix:")
-print(confusion_matrix(y_test, y_pred))
-
-print("\nClassification Report:")
-print(classification_report(y_test, y_pred, digits=3))
-
+# -----------------------------
+# Raw data preview
+# -----------------------------
+st.subheader("Preview of Processed Data")
+st.dataframe(df.head(50), use_container_width=True)
