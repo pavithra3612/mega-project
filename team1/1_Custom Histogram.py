@@ -16,7 +16,7 @@ FILE_PATH = "ENG 220 cleaned data NMCRG.csv"
 def load_data():
     """Load CSV and return DataFrame."""
     try:
-        df = pd.read_csv(FILE_PATH)
+        df = pd.read_csv(DATA_FILE)
 
         # Clean numeric columns (convert all possible columns to numeric)
         for col in df.columns:
