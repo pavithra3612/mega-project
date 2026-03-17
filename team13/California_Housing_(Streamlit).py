@@ -1,11 +1,13 @@
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
 st.title("California Housing Prices")
 
 # Load datasets
-data_updated = pd.read_csv('california_housing_updated.csv')
-data_1990 = pd.read_csv('california_housing_1990.csv')
+data_updated = pd.read_csv(BASE_DIR / "california_housing_updated.csv")
+data_1990 = pd.read_csv(BASE_DIR / "california_housing_1990.csv")
 
 # Display number of entries before cleaning
 st.write(f"Number of entries in 1990 dataset: {len(data_1990)}")
