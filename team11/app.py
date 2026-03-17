@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import pycountry-convert as pc
+import pycountry_convert as pc
 import math
 
 st.set_page_config(page_title="Global Economy Dashboard", layout="wide")
@@ -128,7 +128,7 @@ if required_exCols.issubset(data.columns):
     ax.legend()
     ax.grid(True)
     st.pyplot(fig)
-
+    
 else:
     st.warning("Exchange-rate columns missing. Skipping this section.")
 
