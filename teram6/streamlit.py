@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from pathlib import Path
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -11,19 +12,22 @@ st.set_page_config(
 
 # --- Load Data ---
 @st.cache_data
+
+from pathlib import Path
+
 def load_data():
-    # Make sure this matches your Excel filename exactly
-    excel_file = "calenviroscreen40resultsdatadictionary_F_2021.xlsx"
+    BASE_DIR = Path(__file__).resolve().parent
+    excel_file = BASE_DIR / "calenviroscreen40resultsdatadictionary_F_2021.xlsx"
     
     try:
-        # Load Results Sheet
         df_results = pd.read_excel(excel_file, sheet_name="CES4.0FINAL_results", engine='openpyxl')
         
-        # Clean text columns to remove hidden spaces (CRITICAL FIX)
         if 'California County' in df_results.columns:
             df_results['California County'] = df_results['California County'].astype(str).str.strip()
         if 'Approximate Location' in df_results.columns:
             df_results['Approximate Location'] = df_results['Approximate Location'].astype(str).str.strip()
+
+        return df_results
             
         # Load Demographics Sheet (skip first header row)
         df_demo = pd.read_excel(excel_file, sheet_name="Demographic Profile", engine='openpyxl', header=1)
