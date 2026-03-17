@@ -2,48 +2,166 @@
 path = "streamlit_app.py"
 name = "Dashboard Home"
 icon = "🏠"
+url_path = "dashboard-home"
 
 [[pages]]
 path = "team1/DashboardFrontPage.py"
 name = "Team 1"
 icon = ":bookmark:"
+url_path = "team-1"
 
 [[pages]]
 path = "team1/1_Custom Histogram.py"
 name = "Team 1 - Histogram"
 icon = ":bar_chart:"
+url_path = "team-1-histogram"
 
 [[pages]]
 path = "team1/2_Powerful Data Parser.py"
 name = "Team 1 - Data Parser"
 icon = ":bar_chart:"
+url_path = "team-1-data-parser"
 
 [[pages]]
 path = "team1/3_Data Visualizer.py"
 name = "Team 1 - Data Visualizer"
 icon = ":bar_chart:"
+url_path = "team-1-data-visualizer"
 
 [[pages]]
 path = "team1/4_Credits & Attributions.py"
 name = "Team 1 - Credits"
 icon = ":bookmark:"
+url_path = "team-1-credits"
 
 [[pages]]
 path = "team3/app.py"
 name = "Team 3"
 icon = ":bookmark:"
+url_path = "team-3"
 
 [[pages]]
 path = "team5/streamlit_app.py"
 name = "Team 5"
 icon = ":bookmark:"
+url_path = "team-5"
 
 [[pages]]
 path = "teram6/streamlit.py"
 name = "Team 6"
 icon = ":bookmark:"
+url_path = "team-6"
 
 [[pages]]
 path = "team7/app.py"
 name = "Team 7"
 icon = ":bookmark:"
+url_path = "team-7"
+
+[[pages]]
+path = "team8/streamlit_app.py"
+name = "Team 8"
+icon = ":bookmark:"
+url_path = "team-8"
+
+[[pages]]
+path = "team9/streamlit_app.py"
+name = "Team 9"
+icon = ":bookmark:"
+url_path = "team-9"
+
+[[pages]]
+path = "team10/streamlit_app.py"
+name = "Team 10"
+icon = ":bookmark:"
+url_path = "team-10"
+
+[[pages]]
+path = "team11/app.py"
+name = "Team 11"
+icon = ":bookmark:"
+url_path = "team-11"
+
+[[pages]]
+path = "team12/app.py"
+name = "Team 12"
+icon = ":bookmark:"
+url_path = "team-12"
+
+[[pages]]
+path = "team13/App.py"
+name = "Team 13"
+icon = ":bookmark:"
+url_path = "team-13"
+
+[[pages]]
+path = "team13/California_Housing_(Streamlit).py"
+name = "Team 13 - Visualization 1"
+icon = ":bar_chart:"
+url_path = "team-13-visualization-1"
+
+[[pages]]
+path = "team13/Streamlit_Test.py"
+name = "Team 13 - Visualization 2"
+icon = ":bar_chart:"
+url_path = "team-13-visualization-2"
+
+[[pages]]
+path = "team14/app.py"
+name = "Team 14"
+icon = ":bookmark:"
+url_path = "team-14"
+
+[[pages]]
+path = "team15/app.py"
+name = "Team 15"
+icon = ":bookmark:"
+url_path = "team-15"
+
+[[pages]]
+path = "team16/alejandro_water_data_analysis.py"
+name = "Team 16"
+icon = ":bookmark:"
+url_path = "team-16"
+
+[[pages]]
+path = "team17/app.py"
+name = "Team 17"
+icon = ":bookmark:"
+url_path = "team-17"
+
+[[pages]]
+path = "team18/StockCrash.py"
+name = "Team 18"
+icon = ":bookmark:"
+url_path = "team-18"
+
+[[pages]]
+path = "team19/app.py"
+name = "Team 19"
+icon = ":bookmark:"
+url_path = "team-19"
+
+[[pages]]
+path = "team20/streamlit_app.py"
+name = "Team 20"
+icon = ":bookmark:"
+url_path = "team-20"
+
+[[pages]]
+path = "team20/1_What_Goes_Into_EJI.py"
+name = "Team 20 - Visualization 1"
+icon = ":bar_chart:"
+url_path = "team-20-visualization-1"
+
+[[pages]]
+path = "team20/2_EJI_Scale_and_Categories.py"
+name = "Team 20 - Visualization 2"
+icon = ":bar_chart:"
+url_path = "team-20-visualization-2"
+
+[[pages]]
+path = "team20/3_change_over_years_and_comparison.py"
+name = "Team 20 - Visualization 3"
+icon = ":bar_chart:"
+url_path = "team-20-visualization-3"
