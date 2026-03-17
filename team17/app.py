@@ -4,12 +4,6 @@ import altair as alt
 from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
-st.title("CO₂ Emissions — Best and Worst Countries")
-
-st.write(
-    "Upload your CO₂ summary dataset to view the highest and lowest emitting countries."
-)
-
 uploaded_file = st.file_uploader("Upload Summary CSV", type=["csv"])
 
 if uploaded_file is not None:
