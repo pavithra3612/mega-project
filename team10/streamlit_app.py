@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
 st.set_page_config(page_title="Team 11 Emissions Dashboard", layout="wide")
 
 st.title("🚗 Team 11 Project: Emissions & Walkability Dashboard")
@@ -14,8 +16,8 @@ st.write("Interactive exploration of emissions datasets for New Mexico and more.
 @st.cache_data
 def load_data():
     try:
-        df_nm = pd.read_csv("data/NewMexico_emissions.csv")
-        df_all = pd.read_csv("data/data_emissions.csv")
+        df_nm = pd.read_csv(BASE_DIR / "NewMexico_emissions.csv")
+        df_all = pd.read_csv(BASE_DIR / "data_emissions.csv")
         return df_nm, df_all
     except FileNotFoundError:
         st.error("❌ Could not find CSV files. Make sure they are inside the `data/` folder.")
