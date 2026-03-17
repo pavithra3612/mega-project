@@ -188,8 +188,7 @@ def load_sample_data():
 def load_housing_costs():
     """Load housing costs dataset from JSON file in data/ directory"""
     try:
-        BASE_DIR = Path(__file__).resolve().parent
-        file_path = BASE_DIR / "data" / "housing_costs.json"
+        file_path = os.path.join("data", "housing_costs.json")
         with open(file_path) as f:
             data = json.load(f)
         return data
