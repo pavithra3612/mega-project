@@ -2,13 +2,15 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 st.set_page_config(page_title="California Housing Comparison", layout="wide")
+BASE_DIR = Path(__file__).resolve().parent
 
 @st.cache_data
 def load_data():
-    cl_data_1990 = pd.read_csv("cleaned_california_housing_1990.csv")
-    cl_data_updated = pd.read_csv("cleaned_california_housing_updated.csv")
+    cl_data_1990 = pd.read_csv(BASE_DIR / "california_housing_1990.csv")
+    cl_data_updated = pd.read_csv(BASE_DIR / "california_housing_update.csv")
     return cl_data_1990, cl_data_updated
 
 cl_data_1990, cl_data_updated = load_data()
