@@ -47,8 +47,3 @@ icon = ":bookmark:"
 path = "team7/app.py"
 name = "Team 7"
 icon = ":bookmark:"
-
-[[pages]]
-path = "team8/streamlit_app.py"
-name = "Team 8"
-icon = ":bookmark:"
