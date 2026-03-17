@@ -35,28 +35,18 @@ def load_disaster_data(base_path: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """Load cleaned disaster dataset and compute counts per year."""
     base_path = Path(base_path)
 
-    dis_path = base_path / "Cleaned Data" / "Natural Disasters" / "Baris_Dincer_Disasters_Cleaned.csv"
+    dis_path = base_path / "Baris_Dincer_Disasters_Cleaned.csv"
 
     df = pd.read_csv(dis_path)
 
-    # Your dataset columns = EventDate, Var2, Var3, Var4, Var5
     df.columns = ["event_date", "region", "category", "subcategory", "disaster_type"]
-
-    # Fix spacing / formatting
     df["disaster_type"] = df["disaster_type"].astype(str).str.strip()
-
-    # Parse dates
     df["event_date"] = pd.to_datetime(df["event_date"], errors="coerce")
     df = df.dropna(subset=["event_date"])
-
     df["year"] = df["event_date"].dt.year.astype(int)
-
-    # Remove garbage future years
     df = df[(df["year"] >= 1970) & (df["year"] <= 2022)]
 
-    # Count disasters per year
     disasters_per_year = df.groupby("year").size().reset_index(name="disaster_count")
-
     return df, disasters_per_year
 
 
@@ -64,46 +54,32 @@ def load_disaster_data(base_path: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
 # LOAD TEMPERATURE DATA (monthly → annual averages)
 # ---------------------------------------------------------------------
 def load_temperature_data(base_path: str) -> pd.DataFrame:
-    """
-    Load the Berkeley Earth temperature data and aggregate to annual means.
-
-    This version is defensive about column names so it won't crash if the CSV
-    has an extra index column.
-    """
     base_path = Path(base_path)
 
-    temps_path = base_path / "Cleaned Data" / "Temps" / "Berkeley_Earth_Temps_Cleaned.csv"
+    temps_path = base_path / "Berkeley_Earth_Temps_Cleaned.csv"
 
     temps = pd.read_csv(temps_path)
 
-    # Figure out which columns are the date and the temperature
     cols = list(temps.columns)
 
-    # Date column: prefer a column literally called "dt"
     if "dt" in temps.columns:
         date_col = "dt"
     else:
         date_col = cols[0]
 
-    # Temperature column: look for something that contains "temp"
     temp_candidates = [
         c for c in temps.columns if "temp" in c.lower() or "temperature" in c.lower()
     ]
     if temp_candidates:
         temp_col = temp_candidates[0]
     else:
-        # fall back to second column
         temp_col = cols[1]
 
-    # Rename to standard names that the rest of your code expects
     temps = temps.rename(columns={date_col: "dt", temp_col: "temperature"})
-
-    # Parse dates and get year
     temps["dt"] = pd.to_datetime(temps["dt"], errors="coerce", dayfirst=True)
     temps = temps.dropna(subset=["dt"])
     temps["year"] = temps["dt"].dt.year
 
-    # Aggregate to annual mean temperature
     temps_annual = (
         temps.groupby("year", as_index=False)["temperature"].mean().sort_values("year")
     )
