@@ -4,10 +4,12 @@ from streamlit_folium import st_folium
 import json
 import pandas as pd
 import numpy as np
-import os
+from pathlib import Path
 
-DATA_FILE_PATH = "data/projected_pipes.csv"
-GEOJSON_FILE_PATH = "data/us_state_boundaries.geojson"
+BASE_DIR = Path(__file__).resolve().parent
+
+DATA_FILE_PATH = BASE_DIR / "projected_pipes.csv"
+GEOJSON_FILE_PATH = BASE_DIR / "us_state_boundaries.geojson"
 
 @st.cache_data
 def load_data(path, is_geojson=False):
@@ -21,7 +23,7 @@ def load_data(path, is_geojson=False):
     Returns:
         The loaded data (pandas DataFrame or dict), or None if an error occurs.
     """
-    if not os.path.exists(path):
+    if not Path(path).exists():
         st.error(f"Error: File not found at '{path}'.")
         st.error("Please ensure the file is correctly placed in your project directory.")
         st.stop()
