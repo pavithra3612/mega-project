@@ -27,12 +27,12 @@ def load_data():
         if 'Approximate Location' in df_results.columns:
             df_results['Approximate Location'] = df_results['Approximate Location'].astype(str).str.strip()
 
-            
         # Load Demographics Sheet (skip first header row)
         df_demo = pd.read_excel(excel_file, sheet_name="Demographic Profile", engine='openpyxl', header=1)
+
     except Exception as e:
         st.error(f"Error loading Excel file: {e}")
-        st.stop()
+        return pd.DataFrame()
     
     # Ensure ID columns are strings
     df_results['Census Tract'] = df_results['Census Tract'].astype(str)
@@ -44,7 +44,6 @@ def load_data():
         'Hispanic (%)', 'White (%)', 'African American (%)', 
         'Native American (%)', 'Asian American (%)'
     ]
-    # Only keep columns that actually exist
     available_cols = [c for c in demo_cols if c in df_demo.columns]
     merged_df = pd.merge(df_results, df_demo[available_cols], on="Census Tract", how="left")
     
