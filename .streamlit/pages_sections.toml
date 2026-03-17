@@ -7,3 +7,48 @@ icon = "🏠"
 path = "team1/DashboardFrontPage.py"
 name = "Team 1"
 icon = ":bookmark:"
+
+[[pages]]
+path = "team1/1_Custom Histogram.py"
+name = "Team 1 - Histogram"
+icon = ":bar_chart:"
+
+[[pages]]
+path = "team1/2_Powerful Data Parser.py"
+name = "Team 1 - Data Parser"
+icon = ":bar_chart:"
+
+[[pages]]
+path = "team1/3_Data Visualizer.py"
+name = "Team 1 - Data Visualizer"
+icon = ":bar_chart:"
+
+[[pages]]
+path = "team1/4_Credits & Attributions.py"
+name = "Team 1 - Credits"
+icon = ":bookmark:"
+
+[[pages]]
+path = "team3/app.py"
+name = "Team 3"
+icon = ":bookmark:"
+
+[[pages]]
+path = "team5/streamlit_app.py"
+name = "Team 5"
+icon = ":bookmark:"
+
+[[pages]]
+path = "teram6/streamlit.py"
+name = "Team 6"
+icon = ":bookmark:"
+
+[[pages]]
+path = "team7/app.py"
+name = "Team 7"
+icon = ":bookmark:"
+
+[[pages]]
+path = "team8/streamlit_app.py"
+name = "Team 8"
+icon = ":bookmark:"
