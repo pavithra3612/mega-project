@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import pycountry_convert as pc
+import pycountry-convert as pc
 import math
 
 st.set_page_config(page_title="Global Economy Dashboard", layout="wide")
