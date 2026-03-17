@@ -12,9 +12,6 @@ st.set_page_config(
 
 # --- Load Data ---
 @st.cache_data
-
-from pathlib import Path
-
 def load_data():
     BASE_DIR = Path(__file__).resolve().parent
     excel_file = BASE_DIR / "calenviroscreen40resultsdatadictionary_F_2021.xlsx"
