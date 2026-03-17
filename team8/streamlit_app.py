@@ -29,7 +29,7 @@ clean_score_col = NMdata["HPSA Score"].dropna()
 #Main California Data
 #cali = pd.read_csv("CaliDataFinal.csv")
 
-caliData = pd.read_csv("CaliDataFinal.csv", encoding="latin1")
+caliData = pd.read_csv(BASE_DIR / "CaliDataFinal.csv", encoding="latin1")
 
 
 #Converting if it doesnt work
