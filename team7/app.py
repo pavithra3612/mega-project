@@ -46,7 +46,7 @@ st.markdown("""
 def load_data():
     """Load and prepare data."""
     base_dir = Path(__file__).resolve().parent
-    data_dir = base_dir / "data"
+    data_dir = base_dir
     
     # Try to load cleaned data first
     cleaned_file = data_dir / "cleaned_data.csv"
