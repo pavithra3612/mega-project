@@ -9,3 +9,5 @@ pydeck
 openpyxl
 geopandas
 st-pages
+folium
+streamlit-folium
