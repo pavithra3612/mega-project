@@ -7,7 +7,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 st.set_page_config(page_title="Team 10 Emissions Dashboard", layout="wide")
 
-st.title("🚗 Team 11 Project: Emissions & Walkability Dashboard")
+st.title("🚗 Team 10 Project: Emissions & Walkability Dashboard")
 st.write("Interactive exploration of emissions datasets for New Mexico and more.")
 
 # -------------------------
