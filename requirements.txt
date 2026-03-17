@@ -12,5 +12,4 @@ st-pages
 folium
 streamlit-folium
 seaborn
-tensorflow
 keras
