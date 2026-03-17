@@ -1,6 +1,9 @@
 import os
+import sys
 import streamlit as st
-
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
+sys.path.append(str(BASE_DIR))
 from climate_disasters_pipeline import (
     build_merged_dataset,
     compute_disaster_summary,
