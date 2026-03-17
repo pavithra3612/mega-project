@@ -24,7 +24,7 @@ def load_data():
 
         return df
     except FileNotFoundError:
-        st.error(f"File '{FILE_PATH}' not found.")
+        st.error(f"File '{DATA_FILE}' not found.")
         return pd.DataFrame()
 
 
