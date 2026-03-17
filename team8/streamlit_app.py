@@ -38,7 +38,7 @@ caliData["HPSA Score"] = pd.to_numeric(caliData["HPSA Score"], errors="coerce")
 cali_clean = caliData["HPSA Score"].dropna()
 
 #Main Massachusetts Data
-massData = pd.read_csv("MassachusettsData.csv", encoding="latin1")
+massData = pd.read_csv(BASE_DIR / "MassachusettsData.csv", encoding="latin1")
 
 #Convert Var8
 massData["Unnamed: 7"] = pd.to_numeric(massData["Unnamed: 7"], errors="coerce")
