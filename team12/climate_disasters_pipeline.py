@@ -25,17 +25,17 @@ Files expected (in base_path or Kaggle input path):
 import os
 import pandas as pd
 from typing import Tuple, Dict
-
+from pathlib import Path
 
 # ---------------------------------------------------------------------
 # LOAD DISASTER DATA (Var5 = true disaster type)
 # ---------------------------------------------------------------------
+
 def load_disaster_data(base_path: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """Load cleaned disaster dataset and compute counts per year."""
+    base_path = Path(base_path)
 
-    dis_path = os.path.join(
-        base_path, "Cleaned Data", "Natural Disasters", "Baris_Dincer_Disasters_Cleaned.csv"
-    )
+    dis_path = base_path / "Cleaned Data" / "Natural Disasters" / "Baris_Dincer_Disasters_Cleaned.csv"
 
     df = pd.read_csv(dis_path)
 
@@ -70,12 +70,9 @@ def load_temperature_data(base_path: str) -> pd.DataFrame:
     This version is defensive about column names so it won't crash if the CSV
     has an extra index column.
     """
-    temps_path = os.path.join(
-        base_path,
-        "Cleaned Data",
-        "Temps",
-        "Berkeley_Earth_Temps_Cleaned.csv",
-    )
+    base_path = Path(base_path)
+
+    temps_path = base_path / "Cleaned Data" / "Temps" / "Berkeley_Earth_Temps_Cleaned.csv"
 
     temps = pd.read_csv(temps_path)
 
