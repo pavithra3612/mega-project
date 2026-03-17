@@ -27,7 +27,6 @@ def load_data():
         if 'Approximate Location' in df_results.columns:
             df_results['Approximate Location'] = df_results['Approximate Location'].astype(str).str.strip()
 
-        return df_results
             
         # Load Demographics Sheet (skip first header row)
         df_demo = pd.read_excel(excel_file, sheet_name="Demographic Profile", engine='openpyxl', header=1)
