@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
+from pathlib import Path
 
 #st.title("HPSA Score Comparison")
 st.markdown(
@@ -14,7 +15,8 @@ st.markdown(
 )
 
 #Main New Mexico Data
-NMdata = pd.read_csv("FinalProjectDataPt2.csv")
+BASE_DIR = Path(__file__).resolve().parent
+NMdata = pd.read_csv(BASE_DIR / "FinalProjectDataPt2.csv")
 
 #print(NMdata.columns.tolist())
 
