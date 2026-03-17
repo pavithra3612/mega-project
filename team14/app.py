@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
 
 # -----------------------------
 # Page config
@@ -27,12 +29,16 @@ st.markdown(
 # -----------------------------
 # Load data
 # -----------------------------
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+
 @st.cache_data
-def load_data(uploaded_file=None, default_path="datasets/EJI_2024_New_Mexico_CLEAN.csv"):
+def load_data(uploaded_file=None):
     if uploaded_file is not None:
         return pd.read_csv(uploaded_file)
     else:
-        return pd.read_csv(default_path)
+        return pd.read_csv(BASE_DIR / "EJI_2024_New_Mexico_CLEAN.csv")
 
 
 st.sidebar.header("Data Source")
