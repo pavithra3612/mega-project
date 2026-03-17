@@ -10,8 +10,8 @@ BASE_DIR = Path(__file__).resolve().parent
 @st.cache_data
 def load_data():
    cl_data_1990 = pd.read_csv(BASE_DIR / "cleaned_california_housing_1990.csv")
-    cl_data_updated = pd.read_csv(BASE_DIR / "cleaned_california_housing_updated.csv")
-    return cl_data_1990, cl_data_updated
+   cl_data_updated = pd.read_csv(BASE_DIR / "cleaned_california_housing_updated.csv")
+   return cl_data_1990, cl_data_updated
 
 cl_data_1990, cl_data_updated = load_data()
 
