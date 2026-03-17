@@ -5,8 +5,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import pycountry_convert as pc
+try:
+    import pycountry_convert as pc
+except ModuleNotFoundError:
+    pc = None
 import math
+from pathlib import Path
 
 st.set_page_config(page_title="Global Economy Dashboard", layout="wide")
 
@@ -17,7 +21,9 @@ st.title("🌍 Global Economy Indicators — Interactive Dashboard")
 # ==========================================================
 
 st.info("Using built-in dataset bundled with this app.")
-T = pd.read_csv("Global Economy Indicators.csv")
+
+BASE_DIR = Path(__file__).resolve().parent
+T = pd.read_csv(BASE_DIR / "Global Economy Indicators.csv")
 
 # ==========================================================
 #                PART 1 — CLEANING + STATISTICS
