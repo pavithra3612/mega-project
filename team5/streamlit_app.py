@@ -4,6 +4,7 @@ import numpy as np
 import math
 from pathlib import Path
 
+
 # -----------------------------------------------------------------------------
 
 # Set the title and favicon that appear in the Browser's tab bar.
@@ -20,7 +21,9 @@ st.set_page_config(
 @st.cache_data
 def get_food_data():
 
-    DATA_FILENAME = Path(__file__).parent.parent/'data/Food_Production.csv'
+    BASE_DIR = Path(__file__).resolve().parent
+    DATA_FILENAME = BASE_DIR / "Food_Production.csv"
+
     food_df = pd.read_csv(DATA_FILENAME)
 
     food_df.rename(columns={'Food product': 'Food_product'}, inplace=True)
