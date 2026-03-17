@@ -2,10 +2,12 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 from pathlib import Path
+
 BASE_DIR = Path(__file__).resolve().parent
 
 uploaded_file = st.file_uploader("Upload Summary CSV", type=["csv"])
 
+# Load data (upload or default)
 if uploaded_file is not None:
     T = pd.read_csv(uploaded_file)
 else:
@@ -15,39 +17,38 @@ else:
 if "Country" not in T.columns or "Sum" not in T.columns:
     st.error("Dataset must contain 'Country' and 'Sum' columns.")
 else:
+    # Slider for number of countries
     num = st.slider("Number of countries to display", 5, 30, 10)
 
+    # Choose best or worst
     choice = st.radio(
         "Select view:",
         ("Best (Lowest CO₂ Emitters)", "Worst (Highest CO₂ Emitters)")
     )
 
-        # Compute subset
-        if choice == "Best (Lowest CO₂ Emitters)":
-            subset = T.nsmallest(num, "Sum")
-            title = f"Top {num} Countries With Lowest Total CO₂ Emissions"
-        else:
-            subset = T.nlargest(num, "Sum")
-            title = f"Top {num} Countries With Highest Total CO₂ Emissions"
+    # Compute subset
+    if choice == "Best (Lowest CO₂ Emitters)":
+        subset = T.nsmallest(num, "Sum")
+        title = f"Top {num} Countries With Lowest Total CO₂ Emissions"
+    else:
+        subset = T.nlargest(num, "Sum")
+        title = f"Top {num} Countries With Highest Total CO₂ Emissions"
 
-        # Create Altair bar chart
-        chart = (
-            alt.Chart(subset)
-            .mark_bar()
-            .encode(
-                x=alt.X("Country:N", sort=None, title="Country"),
-                y=alt.Y("Sum:Q", title="Total Emissions (Sum)"),
-                tooltip=["Country", "Sum"]
-            )
-            .properties(
-                width=700,
-                height=400,
-                title=title
-            )
+    # Create Altair bar chart
+    chart = (
+        alt.Chart(subset)
+        .mark_bar()
+        .encode(
+            x=alt.X("Country:N", sort=None, title="Country"),
+            y=alt.Y("Sum:Q", title="Total Emissions (Sum)"),
+            tooltip=["Country", "Sum"]
         )
+        .properties(
+            width=700,
+            height=400,
+            title=title
+        )
+    )
 
-        # Display chart
-        st.altair_chart(chart, use_container_width=True)
-
-else:
-    st.info("Please upload your summary dataset to generate graphs.")
+    # Display chart
+    st.altair_chart(chart, use_container_width=True)
