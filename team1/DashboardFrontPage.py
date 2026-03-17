@@ -1,8 +1,11 @@
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
 
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "ENG 220 cleaned data NMCRG.csv"
 st.set_page_config(page_title="Rio Grande Water Consumption Analysis", layout="wide")
 
 FILE_PATH = "ENG 220 cleaned data NMCRG.csv"
@@ -10,7 +13,7 @@ FILE_PATH = "ENG 220 cleaned data NMCRG.csv"
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv(FILE_PATH)
+        df = pd.read_csv(DATA_FILE)
 
         # Rename long CSV columns to simple names used by the dashboard
         df = df.rename(columns={
