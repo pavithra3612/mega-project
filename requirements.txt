@@ -11,3 +11,4 @@ geopandas
 st-pages
 folium
 streamlit-folium
+seaborn
