@@ -1,5 +1,4 @@
 import streamlit as st
-import numpy as np
 from st_pages import add_page_title, get_nav_from_toml
 
 nav = get_nav_from_toml(".streamlit/pages_sections.toml")
