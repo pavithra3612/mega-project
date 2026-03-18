@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
+import numpy as np
 import altair as alt
 import pydeck as pdk
 
