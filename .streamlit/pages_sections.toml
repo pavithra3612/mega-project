@@ -60,7 +60,7 @@ url_path = "team-5"
 
 [[pages]]
 path = "teram6/streamlit.py"
-name = "Teram 6"
+name = "Team 6"
 icon = ":bookmark:"
 url_path = "team-6"
 
