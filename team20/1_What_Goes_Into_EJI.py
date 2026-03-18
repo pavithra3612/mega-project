@@ -72,8 +72,13 @@ This diagram, developed by the **CDC and ATSDR**, illustrates how these indicato
 and modules to calculate the overall Environmental Justice score.
 """)
 
-st.image(
-    BASE_DIR / "pictures" / "EJIofficialMarkers.png",
-    width='stretch',
-    caption="Source: CDC Environmental Justice Index"
-)
+image_path = BASE_DIR / "pictures" / "EJIofficialMarkers.png"
+
+if image_path.exists():
+    st.image(
+        str(image_path),
+        width='stretch',
+        caption="Source: CDC Environmental Justice Index"
+    )
+else:
+    st.warning("Reference image not found. Please upload EJIofficialMarkers.png into team20/pictures.")
