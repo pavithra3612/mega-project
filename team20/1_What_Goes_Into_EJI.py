@@ -81,4 +81,8 @@ if image_path.exists():
         caption="Source: CDC Environmental Justice Index"
     )
 else:
-    st.warning("Reference image not found. Please upload EJIofficialMarkers.png into team20/pictures.")
+    st.image(
+        "https://www.atsdr.cdc.gov/placeandhealth/eji/images/EJI_framework.png",
+        width='stretch',
+        caption="Source: CDC Environmental Justice Index (Online)"
+    )
