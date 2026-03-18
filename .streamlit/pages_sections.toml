@@ -47,10 +47,10 @@ icon = ":bookmark:"
 url_path = "team-3"
 
 [[pages]]
-path = "team6/streamlit.py"
-name = "Team 6"
+path = "team4/streamlit.py"
+name = "Team 4"
 icon = ":bookmark:"
-url_path = "team-6"
+url_path = "team-4"
 
 [[pages]]
 path = "team5/streamlit_app.py"
@@ -59,7 +59,7 @@ icon = ":bookmark:"
 url_path = "team-5"
 
 [[pages]]
-path = "tream6/streamlit.py"
+path = "team6/streamlit.py"
 name = "Team 6"
 icon = ":bookmark:"
 url_path = "team-6"
