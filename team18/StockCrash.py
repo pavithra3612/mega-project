@@ -63,6 +63,7 @@ except FileNotFoundError:
         "Date": dates,
         "Index_Change_Percent": np.random.normal(0, 2, size=300),
         "Trading_Volume": np.random.randint(1000, 10000, size=300)
+    })
 
 # -----------------------------
 # Clean / prepare data
@@ -132,7 +133,6 @@ st.pyplot(fig1)
 X = df[["Index_Change_Percent", "Trading_Volume"]].values
 y = df["Crash"].values
 
-# Need at least 2 classes
 if len(np.unique(y)) < 2:
     st.warning("The dataset does not contain both crash and non-crash classes.")
     st.stop()
@@ -186,7 +186,6 @@ if tf is not None:
         verbose=0
     )
 
-    # Plot training loss
     fig2, ax2 = plt.subplots(figsize=(8, 4))
     ax2.plot(history.history["loss"], label="Train loss")
     ax2.plot(history.history["val_loss"], label="Val loss")
@@ -198,7 +197,6 @@ if tf is not None:
     fig2.tight_layout()
     st.pyplot(fig2)
 
-    # Plot training accuracy
     fig3, ax3 = plt.subplots(figsize=(8, 4))
     ax3.plot(history.history["accuracy"], label="Train accuracy")
     ax3.plot(history.history["val_accuracy"], label="Val accuracy")
@@ -210,7 +208,6 @@ if tf is not None:
     fig3.tight_layout()
     st.pyplot(fig3)
 
-    # Predictions
     y_pred_prob = model.predict(X_test_scaled, verbose=0).ravel()
     y_pred = (y_pred_prob >= 0.5).astype(int)
 
