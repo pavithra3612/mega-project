@@ -14,9 +14,9 @@ st.set_page_config(
 
 @st.cache_data
 def load_gun_violence_data():
-    """Load gun violence data from url if provided, otherwise from local data folder."""
+    """Load gun violence data safely (local or fallback demo)."""
 
-    data_url = ""  # optional url if you host the csv somewhere
+    data_url = ""  # optional
 
     df = None
 
@@ -24,20 +24,36 @@ def load_gun_violence_data():
         try:
             df = pd.read_csv(data_url, parse_dates=["date"])
         except Exception:
-            st.warning("Could not load data from url, using local file instead")
+            st.warning("Could not load data from URL, using local/demo data.")
 
     if df is None:
         local_path = Path(__file__).parent / "data" / "gun-violence-data_01-2013_03-2018.csv"
-        df = pd.read_csv(local_path, parse_dates=["date"])
+
+        if local_path.exists():
+            df = pd.read_csv(local_path, parse_dates=["date"])
+        else:
+            st.warning("⚠️ Dataset not found. Using demo data.")
+
+            # --- DEMO DATA ---
+            dates = pd.date_range(start="2013-01-01", periods=500)
+
+            df = pd.DataFrame({
+                "incident_id": range(500),
+                "date": dates,
+                "state": np.random.choice(["CA", "TX", "NY", "FL"], 500),
+                "n_killed": np.random.randint(0, 5, 500),
+                "n_injured": np.random.randint(0, 10, 500),
+                "city_or_county": "Demo City",
+                "incident_characteristics": "Demo",
+                "latitude": np.random.uniform(25, 45, 500),
+                "longitude": np.random.uniform(-120, -70, 500)
+            })
 
     df["year"] = df["date"].dt.year
     df["month"] = df["date"].dt.to_period("M").dt.to_timestamp()
 
     for col in ["n_killed", "n_injured"]:
-        if col in df.columns:
-            df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
-        else:
-            df[col] = 0
+        df[col] = pd.to_numeric(df.get(col, 0), errors="coerce").fillna(0)
 
     return df
 
