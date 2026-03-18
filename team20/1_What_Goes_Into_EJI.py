@@ -72,17 +72,13 @@ This diagram, developed by the **CDC and ATSDR**, illustrates how these indicato
 and modules to calculate the overall Environmental Justice score.
 """)
 
-image_path = BASE_DIR / "pictures" / "EJIofficialMarkers.png"
+image_path = BASE_DIR / "RPLscale.png"
 
 if image_path.exists():
     st.image(
         str(image_path),
         width='stretch',
-        caption="Source: CDC Environmental Justice Index"
+        caption="RPL Scale – Environmental Justice Index"
     )
 else:
-    st.image(
-        "https://www.atsdr.cdc.gov/placeandhealth/eji/images/EJI_framework.png",
-        width='stretch',
-        caption="Source: CDC Environmental Justice Index (Online)"
-    )
+    st.warning("Image not found.")
