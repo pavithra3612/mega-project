@@ -1,4 +1,7 @@
 import streamlit as st
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 # ------------------------------
 # Page Config
@@ -69,4 +72,8 @@ This diagram, developed by the **CDC and ATSDR**, illustrates how these indicato
 and modules to calculate the overall Environmental Justice score.
 """)
 
-st.image("pictures/EJIofficialMarkers.png", width='stretch', caption="Source: CDC Environmental Justice Index")
+st.image(
+    BASE_DIR / "pictures" / "EJIofficialMarkers.png",
+    width='stretch',
+    caption="Source: CDC Environmental Justice Index"
+)
