@@ -1,0 +1,10 @@
+## Summary
+- Describe what section of `README.md` you added or updated (e.g., Pollution Burden analysis).
+
+## Checklist
+- [ ] I only edited my own named subsection.
+- [ ] My commit message follows the format `docs: add contribution - <my-name>`.
+- [ ] PR title is `Add contribution — <my-name>`.
+
+## Screenshots (for submission)
+- (Optional) Attach a screenshot of your PR for grading documentation.
