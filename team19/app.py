@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from pathlib import Path
 
 # -------------------------------------
 # Page Config + Custom Styling
@@ -33,15 +34,21 @@ div[data-testid="stMetricValue"] {
 # -------------------------------
 # Data
 # -------------------------------
-FILENAME = "climate_agri_top5_countries.csv"
+BASE_DIR = Path(__file__).resolve().parent
+FILENAME = BASE_DIR / "climate_agri_top5_countries.csv"
 
 @st.cache_data
 def load_data():
     df = pd.read_csv(FILENAME)
+
+    # Handle duplicate column names
     cols = pd.Series(df.columns)
     for dup in cols[cols.duplicated()].unique():
-        cols[cols[cols == dup].index.values[1:]] = [f"{dup}_{i}" for i in range(1, sum(cols == dup))]
+        cols[cols[cols == dup].index.values[1:]] = [
+            f"{dup}_{i}" for i in range(1, sum(cols == dup))
+        ]
     df.columns = cols
+
     return df
 
 try:
