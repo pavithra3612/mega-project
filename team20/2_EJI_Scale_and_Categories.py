@@ -1,4 +1,7 @@
 import streamlit as st
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 
 # ------------------------------
 # Page Config
@@ -12,40 +15,38 @@ st.set_page_config(
 # ------------------------------
 # Hide Streamlit's Auto Navigation and Add Custom Title in Logo Spot
 # ------------------------------
-
-st.markdown('<style>div[data-testid="stSidebarNav"] {display: none;}</style>', unsafe_allow_html=True)
+st.markdown(
+    '<style>div[data-testid="stSidebarNav"] {display: none;}</style>',
+    unsafe_allow_html=True
+)
 
 st.markdown(
     """
 <style>
-/* Target the logo spacer div container */
 div[data-testid="stLogoSpacer"] {
     display: flex;
-    flex-direction: column; /* Stack the before and after elements vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
-    padding-top: 40px; /* Add some padding to move it down slightly */
+    padding-top: 40px;
 }
 
-/* ::before for the top line (TEAM 23:) */
 div[data-testid="stLogoSpacer"]::before {
     content: "TEAM 23:";
-    font-size: 30px; /* Larger font size */
+    font-size: 30px;
     font-weight: bold;
     white-space: nowrap;
-    margin-bottom: 5px; /* Space between lines */
+    margin-bottom: 5px;
 }
 
-/* ::after for the bottom line (🌎 Environmental Justice in New Mexico) */
 div[data-testid="stLogoSpacer"]::after {
     content: "🌎 Environmental Justice in New Mexico";
     text-align: center;
-    font-size: 18px; /* Smaller font size */
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: -40px;
 }
-
 </style>
 """,
     unsafe_allow_html=True,
@@ -56,10 +57,10 @@ div[data-testid="stLogoSpacer"]::after {
 # ------------------------------
 with st.sidebar:
     st.write("---")
-    st.page_link("streamlit_app.py", label="EJI Visualization", icon="📊")
-    st.page_link("pages/3_change_over_years_and_comparison.py", label="EJI Metrics Comparison", icon="📈")
-    st.page_link("pages/2_EJI_Scale_and_Categories.py", label="What Does the EJI Mean?", icon="🌡️")
-    st.page_link("pages/1_What_Goes_Into_EJI.py", label="What Goes Into the EJI?", icon="🧩")
+    st.page_link("team20/streamlit_app.py", label="EJI Visualization", icon="📊")
+    st.page_link("team20/3_change_over_years_and_comparison.py", label="EJI Metrics Comparison", icon="📈")
+    st.page_link("team20/2_EJI_Scale_and_Categories.py", label="What Does the EJI Mean?", icon="🌡️")
+    st.page_link("team20/1_What_Goes_Into_EJI.py", label="What Goes Into the EJI?", icon="🧩")
 
 st.title("🌡️ Understanding the EJI Scale")
 
@@ -72,7 +73,16 @@ Below is a visual scale and a reference table showing percentile ranges, categor
 """)
 
 # --- COLOR SCALE BAR (green → yellow → orange → red)
-st.image("pictures/RPLscale.png", caption="EJI Percentile Scale (Low to High Burden)", width='content')
+image_path = BASE_DIR / "RPLscale.png"
+
+if image_path.exists():
+    st.image(
+        str(image_path),
+        caption="EJI Percentile Scale (Low to High Burden)",
+        width='content'
+    )
+else:
+    st.info("RPL scale image not found in team20 folder.")
 
 st.markdown("""
 <style>
