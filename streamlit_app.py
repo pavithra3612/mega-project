@@ -1,4 +1,16 @@
+import streamlit as st
+from st_pages import add_page_title, get_nav_from_toml
+
+# navigation setup
+nav = get_nav_from_toml(".streamlit/pages_sections.toml")
+
+pg = st.navigation(nav)
+
+add_page_title(pg)
+
+# home page
 if pg.title == "Dashboard Home":
+
     st.markdown("""
     # 🎓 2025 ENG 220 Dashboard
     ### Interactive team projects, visualizations, and data stories in one place.
@@ -40,7 +52,12 @@ if pg.title == "Dashboard Home":
 
     with right:
         st.success("Select a team from the sidebar to get started.")
-        st.caption("Each team may include extra visualization pages.")
+        st.caption("Some teams include extra visualization pages.")
 
     st.divider()
+
     st.caption("2025 ENG 220 Combined Dashboard • Built with Streamlit")
+
+# run team pages
+else:
+    pg.run()
