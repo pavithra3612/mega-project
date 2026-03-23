@@ -9,7 +9,7 @@ add_page_title(pg)
 
 if pg.title == "Dashboard Home":
     st.markdown("""
-    # ENG220 Combined Project Dashboard
+    # 2025 ENG220 Combined Project Dashboard
 
     Welcome to the combined dashboard.
 
