@@ -11,5 +11,6 @@ geopandas
 st-pages
 folium
 streamlit-folium
+statsmodels
 seaborn
 keras
