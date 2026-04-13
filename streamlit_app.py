@@ -48,6 +48,15 @@ if pg.title == "Dashboard Home":
             border: 1px solid rgba(0,0,0,0.06);
             margin-bottom: 0.8rem;
         }
+        .people-card {
+            padding: 1rem 1rem 0.8rem 1rem;
+            border-radius: 16px;
+            border: 1px solid rgba(0,0,0,0.08);
+            background: #f8fafc;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
         .footer-note {
             text-align: center;
             color: #6b7280;
@@ -88,6 +97,21 @@ if pg.title == "Dashboard Home":
         st.metric("Topics", "10+")
 
     st.divider()
+
+    # -----------------------------
+    # Professor and TAs section
+    # -----------------------------
+    st.markdown('<div class="people-card">', unsafe_allow_html=True)
+    st.subheader("Course Team")
+    st.markdown("### Professor: Dr. Ramiro Jordan")
+    st.markdown("#### Teaching Assistants")
+    st.markdown(
+        """
+        - Sri Teja Sudunagunta
+        - Pavithra Ravipati
+        """
+    )
+    st.markdown("</div>", unsafe_allow_html=True)
 
     left, mid, right = st.columns([1.2, 1.2, 1])
 
