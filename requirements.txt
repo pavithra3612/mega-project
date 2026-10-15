@@ -14,3 +14,4 @@ streamlit-folium
 statsmodels
 seaborn
 keras
+toml
